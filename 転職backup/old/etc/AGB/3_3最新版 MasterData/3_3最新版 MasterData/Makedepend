@@ -1,0 +1,541 @@
+Main.o : src/Main.c src/All.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h src/all.h
+hard_init.o : src/hard_init.c C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/hard_init.h
+GameData.o : src/GameData.c C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/..\image\bg_woods.c C:/agb/include/agbtypes.h \
+ src/..\image\bg_woods_main.c src/..\image\game_over_logo.c \
+ src/..\image\Palette.c src/..\image\system.c \
+ src/..\image\speed\sp_01_f.c src/..\image\speed\sp_01_s.c \
+ src/..\image\speed\sp_01_r.c src/..\image\speed\sp_11_f.c \
+ src/..\image\speed\sp_12_f.c src/..\image\speed\sp_13_f.c \
+ src/..\image\speed\sp_14_f.c src/..\image\speed\sp_11_s.c \
+ src/..\image\speed\sp_12_s.c src/..\image\speed\sp_13_s.c \
+ src/..\image\speed\sp_14_s.c src/..\image\speed\sp_11_r.c \
+ src/..\image\speed\sp_12_r.c src/..\image\speed\sp_13_r.c \
+ src/..\image\speed\sp_14_r.c src/..\image\speed\sp_21_f.c \
+ src/..\image\speed\sp_22_f.c src/..\image\speed\sp_23_f.c \
+ src/..\image\speed\sp_24_f.c src/..\image\speed\sp_25_f.c \
+ src/..\image\speed\sp_26_f.c src/..\image\speed\sp_27_f.c \
+ src/..\image\speed\sp_21_s.c src/..\image\speed\sp_22_s.c \
+ src/..\image\speed\sp_23_s.c src/..\image\speed\sp_24_s.c \
+ src/..\image\speed\sp_25_s.c src/..\image\speed\sp_26_s.c \
+ src/..\image\speed\sp_27_s.c src/..\image\speed\sp_28_s.c \
+ src/..\image\speed\sp_21_r.c src/..\image\speed\sp_22_r.c \
+ src/..\image\speed\sp_23_r.c src/..\image\speed\sp_24_r.c \
+ src/..\image\speed\sp_25_r.c src/..\image\speed\sp_26_r.c \
+ src/..\image\speed\sp_27_r.c src/..\image\speed\sp_28_r.c \
+ src/..\image\speed\sp_31_f.c src/..\image\speed\sp_32_f.c \
+ src/..\image\speed\sp_33_f.c src/..\image\speed\sp_34_f.c \
+ src/..\image\speed\sp_35_f.c src/..\image\speed\sp_31_s.c \
+ src/..\image\speed\sp_32_s.c src/..\image\speed\sp_33_s.c \
+ src/..\image\speed\sp_34_s.c src/..\image\speed\sp_35_s.c \
+ src/..\image\speed\sp_31_r.c src/..\image\speed\sp_32_r.c \
+ src/..\image\speed\sp_33_r.c src/..\image\speed\sp_34_r.c \
+ src/..\image\speed\sp_35_r.c src/..\image\speed\sp_41_f.c \
+ src/..\image\speed\sp_42_f.c src/..\image\speed\sp_43_f.c \
+ src/..\image\speed\sp_44_f.c src/..\image\speed\sp_41_s.c \
+ src/..\image\speed\sp_42_s.c src/..\image\speed\sp_43_s.c \
+ src/..\image\speed\sp_44_s.c src/..\image\speed\sp_41_r.c \
+ src/..\image\speed\sp_42_r.c src/..\image\speed\sp_43_r.c \
+ src/..\image\speed\sp_44_r.c src/..\image\speed\sp_51_f.c \
+ src/..\image\speed\sp_51_s.c src/..\image\speed\sp_51_r.c \
+ src/..\image\speed\sp_61_f.c src/..\image\speed\sp_62_f.c \
+ src/..\image\speed\sp_63_f.c src/..\image\speed\sp_61_s.c \
+ src/..\image\speed\sp_62_s.c src/..\image\speed\sp_63_s.c \
+ src/..\image\speed\sp_61_r.c src/..\image\speed\sp_62_r.c \
+ src/..\image\speed\sp_63_r.c src/..\image\speed\sp_90_f.c \
+ src/..\image\magic\mg_01_f.c src/..\image\magic\mg_01_s.c \
+ src/..\image\magic\mg_01_r.c src/..\image\magic\mg_11_f.c \
+ src/..\image\magic\mg_12_f.c src/..\image\magic\mg_13_f.c \
+ src/..\image\magic\mg_14_f.c src/..\image\magic\mg_11_s.c \
+ src/..\image\magic\mg_12_s.c src/..\image\magic\mg_13_s.c \
+ src/..\image\magic\mg_14_s.c src/..\image\magic\mg_11_r.c \
+ src/..\image\magic\mg_12_r.c src/..\image\magic\mg_13_r.c \
+ src/..\image\magic\mg_14_r.c src/..\image\magic\mg_21_f.c \
+ src/..\image\magic\mg_22_f.c src/..\image\magic\mg_23_f.c \
+ src/..\image\magic\mg_24_f.c src/..\image\magic\mg_21_s.c \
+ src/..\image\magic\mg_22_s.c src/..\image\magic\mg_23_s.c \
+ src/..\image\magic\mg_24_s.c src/..\image\magic\mg_21_r.c \
+ src/..\image\magic\mg_22_r.c src/..\image\magic\mg_23_r.c \
+ src/..\image\magic\mg_24_r.c src/..\image\magic\mg_31_f.c \
+ src/..\image\magic\mg_32_f.c src/..\image\magic\mg_33_f.c \
+ src/..\image\magic\mg_31_s.c src/..\image\magic\mg_32_s.c \
+ src/..\image\magic\mg_33_s.c src/..\image\magic\mg_31_r.c \
+ src/..\image\magic\mg_32_r.c src/..\image\magic\mg_33_r.c \
+ src/..\image\magic\mg_41_f.c src/..\image\magic\mg_42_f.c \
+ src/..\image\magic\mg_43_f.c src/..\image\magic\mg_44_f.c \
+ src/..\image\magic\mg_45_f.c src/..\image\magic\mg_51_f.c \
+ src/..\image\magic\mg_51_s.c src/..\image\magic\mg_51_r.c \
+ src/..\image\magic\mg_61_f.c src/..\image\magic\mg_62_f.c \
+ src/..\image\magic\mg_63_f.c src/..\image\magic\mg_64_f.c \
+ src/..\image\magic\mg_65_f.c src/..\image\magic\mg_90_f.c \
+ src/..\image\petit\pt_01_f.c src/..\image\petit\pt_01_s.c \
+ src/..\image\petit\pt_01_r.c src/..\image\petit\pt_11_f.c \
+ src/..\image\petit\pt_12_f.c src/..\image\petit\pt_13_f.c \
+ src/..\image\petit\pt_14_f.c src/..\image\petit\pt_11_s.c \
+ src/..\image\petit\pt_12_s.c src/..\image\petit\pt_13_s.c \
+ src/..\image\petit\pt_14_s.c src/..\image\petit\pt_11_r.c \
+ src/..\image\petit\pt_12_r.c src/..\image\petit\pt_13_r.c \
+ src/..\image\petit\pt_14_r.c src/..\image\petit\pt_21_f.c \
+ src/..\image\petit\pt_22_f.c src/..\image\petit\pt_23_f.c \
+ src/..\image\petit\pt_21_s.c src/..\image\petit\pt_22_s.c \
+ src/..\image\petit\pt_23_s.c src/..\image\petit\pt_21_r.c \
+ src/..\image\petit\pt_22_r.c src/..\image\petit\pt_23_r.c \
+ src/..\image\petit\pt_31_f.c src/..\image\petit\pt_32_f.c \
+ src/..\image\petit\pt_33_f.c src/..\image\petit\pt_31_s.c \
+ src/..\image\petit\pt_32_s.c src/..\image\petit\pt_33_s.c \
+ src/..\image\petit\pt_31_r.c src/..\image\petit\pt_32_r.c \
+ src/..\image\petit\pt_33_r.c src/..\image\petit\pt_41_f.c \
+ src/..\image\petit\pt_42_f.c src/..\image\petit\pt_41_s.c \
+ src/..\image\petit\pt_42_s.c src/..\image\petit\pt_41_r.c \
+ src/..\image\petit\pt_42_r.c src/..\image\petit\pt_51_f.c \
+ src/..\image\petit\pt_51_s.c src/..\image\petit\pt_51_r.c \
+ src/..\image\petit\pt_61_f.c src/..\image\petit\pt_62_f.c \
+ src/..\image\petit\pt_63_f.c src/..\image\petit\pt_90_f.c \
+ src/..\image\beast\bs_01_f.c src/..\image\beast\bs_01_s.c \
+ src/..\image\beast\bs_01_r.c src/..\image\beast\bs_11_f.c \
+ src/..\image\beast\bs_12_f.c src/..\image\beast\bs_13_f.c \
+ src/..\image\beast\bs_14_f.c src/..\image\beast\bs_11_s.c \
+ src/..\image\beast\bs_12_s.c src/..\image\beast\bs_13_s.c \
+ src/..\image\beast\bs_14_s.c src/..\image\beast\bs_11_r.c \
+ src/..\image\beast\bs_12_r.c src/..\image\beast\bs_13_r.c \
+ src/..\image\beast\bs_14_r.c src/..\image\beast\bs_21_f.c \
+ src/..\image\beast\bs_22_f.c src/..\image\beast\bs_23_f.c \
+ src/..\image\beast\bs_24_f.c src/..\image\beast\bs_25_f.c \
+ src/..\image\beast\bs_26_f.c src/..\image\beast\bs_27_f.c \
+ src/..\image\beast\bs_28_f.c src/..\image\beast\bs_29_f.c \
+ src/..\image\beast\bs_21_s.c src/..\image\beast\bs_22_s.c \
+ src/..\image\beast\bs_23_s.c src/..\image\beast\bs_24_s.c \
+ src/..\image\beast\bs_25_s.c src/..\image\beast\bs_26_s.c \
+ src/..\image\beast\bs_27_s.c src/..\image\beast\bs_28_s.c \
+ src/..\image\beast\bs_29_s.c src/..\image\beast\bs_21_r.c \
+ src/..\image\beast\bs_22_r.c src/..\image\beast\bs_23_r.c \
+ src/..\image\beast\bs_24_r.c src/..\image\beast\bs_25_r.c \
+ src/..\image\beast\bs_26_r.c src/..\image\beast\bs_27_r.c \
+ src/..\image\beast\bs_28_r.c src/..\image\beast\bs_29_r.c \
+ src/..\image\beast\bs_31_f.c src/..\image\beast\bs_32_f.c \
+ src/..\image\beast\bs_33_f.c src/..\image\beast\bs_31_s.c \
+ src/..\image\beast\bs_32_s.c src/..\image\beast\bs_33_s.c \
+ src/..\image\beast\bs_31_r.c src/..\image\beast\bs_32_r.c \
+ src/..\image\beast\bs_33_r.c src/..\image\beast\bs_41_f.c \
+ src/..\image\beast\bs_42_f.c src/..\image\beast\bs_43_f.c \
+ src/..\image\beast\bs_41_s.c src/..\image\beast\bs_42_s.c \
+ src/..\image\beast\bs_43_s.c src/..\image\beast\bs_41_r.c \
+ src/..\image\beast\bs_42_r.c src/..\image\beast\bs_43_r.c \
+ src/..\image\beast\bs_51_f.c src/..\image\beast\bs_51_s.c \
+ src/..\image\beast\bs_51_r.c src/..\image\beast\bs_61_f.c \
+ src/..\image\beast\bs_62_f.c src/..\image\beast\bs_63_f.c \
+ src/..\image\beast\bs_64_f.c src/..\image\beast\bs_65_f.c \
+ src/..\image\beast\bs_90_f.c src/..\image\power\pw_01_f.c \
+ src/..\image\power\pw_01_s.c src/..\image\power\pw_01_r.c \
+ src/..\image\power\pw_11_f.c src/..\image\power\pw_12_f.c \
+ src/..\image\power\pw_13_f.c src/..\image\power\pw_14_f.c \
+ src/..\image\power\pw_11_s.c src/..\image\power\pw_12_s.c \
+ src/..\image\power\pw_13_s.c src/..\image\power\pw_14_s.c \
+ src/..\image\power\pw_11_r.c src/..\image\power\pw_12_r.c \
+ src/..\image\power\pw_13_r.c src/..\image\power\pw_14_r.c \
+ src/..\image\power\pw_21_f.c src/..\image\power\pw_22_f.c \
+ src/..\image\power\pw_23_f.c src/..\image\power\pw_24_f.c \
+ src/..\image\power\pw_21_s.c src/..\image\power\pw_22_s.c \
+ src/..\image\power\pw_23_s.c src/..\image\power\pw_24_s.c \
+ src/..\image\power\pw_21_r.c src/..\image\power\pw_22_r.c \
+ src/..\image\power\pw_23_r.c src/..\image\power\pw_24_r.c \
+ src/..\image\power\pw_31_f.c src/..\image\power\pw_32_f.c \
+ src/..\image\power\pw_33_f.c src/..\image\power\pw_31_s.c \
+ src/..\image\power\pw_32_s.c src/..\image\power\pw_33_s.c \
+ src/..\image\power\pw_31_r.c src/..\image\power\pw_32_r.c \
+ src/..\image\power\pw_33_r.c src/..\image\power\pw_41_f.c \
+ src/..\image\power\pw_42_f.c src/..\image\power\pw_41_s.c \
+ src/..\image\power\pw_42_s.c src/..\image\power\pw_41_r.c \
+ src/..\image\power\pw_42_r.c src/..\image\power\pw_51_f.c \
+ src/..\image\power\pw_51_s.c src/..\image\power\pw_51_r.c \
+ src/..\image\power\pw_61_f.c src/..\image\power\pw_62_f.c \
+ src/..\image\power\pw_61_s.c src/..\image\power\pw_62_s.c \
+ src/..\image\power\pw_61_r.c src/..\image\power\pw_62_r.c \
+ src/..\image\power\pw_90_f.c src/..\image\enemy\slime\sl_01_f.c \
+ src/..\image\enemy\slime\sl_02_f.c src/..\image\enemy\slime\sl_03_f.c \
+ src/..\image\enemy\slime\sl_04_f.c src/..\image\enemy\slime\sl_21.c \
+ src/..\image\enemy\nuu\nu_01_f.c src/..\image\enemy\nuu\nu_02_f.c \
+ src/..\image\enemy\nuu\nu_01_r.c src/..\image\enemy\nuu\nu_02_r.c \
+ src/..\image\enemy\nuu\nu_11_f.c src/..\image\enemy\nuu\nu_12_f.c \
+ src/..\image\enemy\nuu\nu_11_r.c src/..\image\enemy\nuu\nu_12_r.c \
+ src/..\image\enemy\nuu\nu_21.c src/..\image\enemy\rafury\rf_01_f.c \
+ src/..\image\enemy\rafury\rf_02_f.c \
+ src/..\image\enemy\rafury\rf_03_f.c \
+ src/..\image\enemy\rafury\rf_01_r.c \
+ src/..\image\enemy\rafury\rf_02_r.c \
+ src/..\image\enemy\rafury\rf_03_r.c src/..\image\enemy\rafury\rf_11.c \
+ src/..\image\enemy\rafury\rf_12.c src/..\image\enemy\rafury\rf_21.c \
+ src/..\image\enemy\rafury\rf_31.c src/..\image\enemy\rafury\rf_32.c \
+ src/..\image\enemy\rafury\rf_33.c src/..\image\enemy\rafury\rf_34.c \
+ src/..\image\enemy\rafury\rf_35.c src/..\image\enemy\rafury\rf_36.c \
+ src/..\image\enemy\rafury\rf_37.c src/..\image\enemy\usa\us_01_f.c \
+ src/..\image\enemy\usa\us_02_f.c src/..\image\enemy\usa\us_03_f.c \
+ src/..\image\enemy\usa\us_01_r.c src/..\image\enemy\usa\us_02_r.c \
+ src/..\image\enemy\usa\us_03_r.c src/..\image\enemy\usa\us_11_f.c \
+ src/..\image\enemy\usa\us_11_r.c src/..\image\enemy\usa\us_21.c \
+ src/..\image\enemy\purazuma\pz_01_f.c \
+ src/..\image\enemy\purazuma\pz_02_f.c \
+ src/..\image\enemy\purazuma\pz_03_f.c \
+ src/..\image\enemy\purazuma\pz_04_f.c \
+ src/..\image\enemy\purazuma\pz_01_r.c \
+ src/..\image\enemy\purazuma\pz_02_r.c \
+ src/..\image\enemy\purazuma\pz_03_r.c \
+ src/..\image\enemy\purazuma\pz_04_r.c \
+ src/..\image\enemy\purazuma\pz_11_f.c \
+ src/..\image\enemy\purazuma\pz_12_f.c \
+ src/..\image\enemy\purazuma\pz_13_f.c \
+ src/..\image\enemy\purazuma\pz_11_r.c \
+ src/..\image\enemy\purazuma\pz_12_r.c \
+ src/..\image\enemy\purazuma\pz_13_r.c \
+ src/..\image\enemy\purazuma\pz_21.c src/..\image\enemy\uni\ui_01_f.c \
+ src/..\image\enemy\uni\ui_02_f.c src/..\image\enemy\uni\ui_03_f.c \
+ src/..\image\enemy\uni\ui_01_r.c src/..\image\enemy\uni\ui_02_r.c \
+ src/..\image\enemy\uni\ui_03_r.c src/..\image\enemy\uni\ui_04_f.c \
+ src/..\image\enemy\uni\ui_04_r.c src/..\image\enemy\uni\ui_11_f.c \
+ src/..\image\enemy\uni\ui_12_f.c src/..\image\enemy\uni\ui_13_f.c \
+ src/..\image\enemy\uni\ui_14_f.c src/..\image\enemy\uni\ui_15_f.c \
+ src/..\image\enemy\uni\ui_11_r.c src/..\image\enemy\uni\ui_12_r.c \
+ src/..\image\enemy\uni\ui_13_r.c src/..\image\enemy\uni\ui_14_r.c \
+ src/..\image\enemy\uni\ui_15_r.c src/..\image\enemy\uni\ui_21.c \
+ src/..\image\enemy\tori\tr_01_f.c src/..\image\enemy\tori\tr_02_f.c \
+ src/..\image\enemy\tori\tr_03_f.c src/..\image\enemy\tori\tr_01_r.c \
+ src/..\image\enemy\tori\tr_02_r.c src/..\image\enemy\tori\tr_03_r.c \
+ src/..\image\enemy\tori\tr_11_f.c src/..\image\enemy\tori\tr_12_f.c \
+ src/..\image\enemy\tori\tr_13_f.c src/..\image\enemy\tori\tr_14_f.c \
+ src/..\image\enemy\tori\tr_15_f.c src/..\image\enemy\tori\tr_16_f.c \
+ src/..\image\enemy\tori\tr_11_r.c src/..\image\enemy\tori\tr_12_r.c \
+ src/..\image\enemy\tori\tr_13_r.c src/..\image\enemy\tori\tr_14_r.c \
+ src/..\image\enemy\tori\tr_15_r.c src/..\image\enemy\tori\tr_16_r.c \
+ src/..\image\enemy\tori\tr_21.c src/..\image\enemy\kaeru\ke_01_f.c \
+ src/..\image\enemy\kaeru\ke_02_f.c src/..\image\enemy\kaeru\ke_03_f.c \
+ src/..\image\enemy\kinoko\kn_01_f.c \
+ src/..\image\enemy\kinoko\kn_02_f.c \
+ src/..\image\enemy\kinoko\kn_03_f.c \
+ src/..\image\enemy\kinoko\kn_01_r.c \
+ src/..\image\enemy\kinoko\kn_02_r.c \
+ src/..\image\enemy\kinoko\kn_03_r.c \
+ src/..\image\enemy\kinoko\kn_11_f.c \
+ src/..\image\enemy\kinoko\kn_12_f.c \
+ src/..\image\enemy\kinoko\kn_13_f.c \
+ src/..\image\enemy\kinoko\kn_14_f.c \
+ src/..\image\enemy\kinoko\kn_15_f.c \
+ src/..\image\enemy\kinoko\kn_16_f.c \
+ src/..\image\enemy\kinoko\kn_11_r.c \
+ src/..\image\enemy\kinoko\kn_12_r.c \
+ src/..\image\enemy\kinoko\kn_13_r.c \
+ src/..\image\enemy\kinoko\kn_14_r.c \
+ src/..\image\enemy\kinoko\kn_15_r.c \
+ src/..\image\enemy\kinoko\kn_16_r.c src/..\image\enemy\kinoko\kn_21.c \
+ src/..\image\enemy\gosuto\go_01_f.c \
+ src/..\image\enemy\gosuto\go_02_f.c \
+ src/..\image\enemy\gosuto\go_03_f.c \
+ src/..\image\enemy\gosuto\go_04_f.c \
+ src/..\image\enemy\gosuto\go_01_r.c \
+ src/..\image\enemy\gosuto\go_02_r.c \
+ src/..\image\enemy\gosuto\go_03_r.c \
+ src/..\image\enemy\gosuto\go_04_r.c \
+ src/..\image\enemy\gosuto\go_11_f.c \
+ src/..\image\enemy\gosuto\go_12_f.c \
+ src/..\image\enemy\gosuto\go_13_f.c \
+ src/..\image\enemy\gosuto\go_14_f.c \
+ src/..\image\enemy\gosuto\go_11_r.c \
+ src/..\image\enemy\gosuto\go_12_r.c \
+ src/..\image\enemy\gosuto\go_13_r.c \
+ src/..\image\enemy\gosuto\go_14_r.c src/..\image\enemy\gosuto\go_21.c \
+ src/..\image\enemy\dom\do_01_f.c src/..\image\enemy\dom\do_02_f.c \
+ src/..\image\enemy\dom\do_03_f.c src/..\image\enemy\dom\do_01_r.c \
+ src/..\image\enemy\dom\do_02_r.c src/..\image\enemy\dom\do_03_r.c \
+ src/..\image\enemy\dom\do_11_f.c src/..\image\enemy\dom\do_12_f.c \
+ src/..\image\enemy\dom\do_13_f.c src/..\image\enemy\dom\do_14_f.c \
+ src/..\image\enemy\dom\do_11_r.c src/..\image\enemy\dom\do_12_r.c \
+ src/..\image\enemy\dom\do_13_r.c src/..\image\enemy\dom\do_14_r.c \
+ src/..\image\enemy\dom\do_21.c src/..\image\enemy\koumori\ko_01_f.c \
+ src/..\image\enemy\koumori\ko_02_f.c \
+ src/..\image\enemy\koumori\ko_03_f.c \
+ src/..\image\enemy\koumori\ko_01_r.c \
+ src/..\image\enemy\koumori\ko_02_r.c \
+ src/..\image\enemy\koumori\ko_03_r.c \
+ src/..\image\enemy\koumori\ko_11_f.c \
+ src/..\image\enemy\koumori\ko_12_f.c \
+ src/..\image\enemy\koumori\ko_13_f.c \
+ src/..\image\enemy\koumori\ko_14_f.c \
+ src/..\image\enemy\koumori\ko_15_f.c \
+ src/..\image\enemy\koumori\ko_16_f.c \
+ src/..\image\enemy\koumori\ko_17_f.c \
+ src/..\image\enemy\koumori\ko_11_r.c \
+ src/..\image\enemy\koumori\ko_12_r.c \
+ src/..\image\enemy\koumori\ko_13_r.c \
+ src/..\image\enemy\koumori\ko_14_r.c \
+ src/..\image\enemy\koumori\ko_15_r.c \
+ src/..\image\enemy\koumori\ko_16_r.c \
+ src/..\image\enemy\koumori\ko_17_r.c \
+ src/..\image\enemy\koumori\ko_21.c \
+ src/..\image\enemy\sasori\sa_01_f.c \
+ src/..\image\enemy\sasori\sa_02_f.c \
+ src/..\image\enemy\sasori\sa_03_f.c \
+ src/..\image\enemy\sasori\sa_01_r.c \
+ src/..\image\enemy\sasori\sa_02_r.c \
+ src/..\image\enemy\sasori\sa_03_r.c \
+ src/..\image\enemy\sasori\sa_11_f.c \
+ src/..\image\enemy\sasori\sa_12_f.c \
+ src/..\image\enemy\sasori\sa_13_f.c \
+ src/..\image\enemy\sasori\sa_11_r.c \
+ src/..\image\enemy\sasori\sa_12_r.c \
+ src/..\image\enemy\sasori\sa_13_r.c src/..\image\enemy\sasori\sa_21.c \
+ src/..\image\enemy_ef\go_shot_01.c src/..\image\enemy_ef\go_shot_02.c \
+ src/..\image\enemy_ef\go_shot_11.c src/..\image\enemy_ef\go_shot_12.c \
+ src/..\image\enemy_ef\go_shot_13.c src/..\image\enemy_ef\rf_shot_01.c \
+ src/..\image\enemy_ef\rf_shot_02.c src/..\image\enemy_ef\rf_shot_03.c \
+ src/..\image\enemy_ef\rf_shot_04.c \
+ src/..\image\effects\dmg_ef\dmg_ef_01.c \
+ src/..\image\effects\dmg_ef\dmg_ef_02.c \
+ src/..\image\effects\dmg_ef\dmg_ef_03.c \
+ src/..\image\effects\dmg_ef\dmg_ef_04.c \
+ src/..\image\effects\smk_ef\smk_ef_01.c \
+ src/..\image\effects\smk_ef\smk_ef_02.c \
+ src/..\image\effects\smk_ef\smk_ef_03.c \
+ src/..\image\effects\smk_ef\smk_ef_04.c \
+ src/..\image\effects\mg_shot\mg_shot_01.c \
+ src/..\image\effects\mg_shot\mg_shot_02.c \
+ src/..\image\effects\mg_shot\mg_shot_03.c \
+ src/..\image\effects\mg_shot\mg_shot_11.c \
+ src/..\image\effects\mg_shot\mg_shot_12.c \
+ src/..\image\effects\mg_shot\mg_shot_13.c \
+ src/..\image\effects\mg_shot\mg_shot_14.c \
+ src/..\image\effects\mg_shot\mg_skill_ef_01.c \
+ src/..\image\effects\mg_shot\mg_skill_ef_02.c \
+ src/..\image\effects\mg_shot\mg_skill_ef_03.c \
+ src/..\image\effects\mg_shot\mg_skill_ef_04.c \
+ src/..\image\effects\special_ef\mg_special_ef_01.c \
+ src/..\image\effects\special_ef\mg_special_ef_02.c \
+ src/..\image\effects\special_ef\mg_special_ef_03.c \
+ src/..\image\effects\special_ef\mg_special_ef_04.c \
+ src/..\image\effects\special_ef\mg_special_ef_05.c \
+ src/..\image\effects\special_ef\mg_special_ef_06.c \
+ src/..\image\effects\special_ef\pw_special_ef_01.c \
+ src/..\image\effects\special_ef\pw_special_ef_02.c \
+ src/..\image\effects\special_ef\pw_special_ef_03.c \
+ src/..\image\effects\special_ef\pw_special_ef_04.c \
+ src/..\image\effects\special_ef\sp_special_ef_01_f.c \
+ src/..\image\effects\special_ef\sp_special_ef_02_f.c \
+ src/..\image\effects\special_ef\sp_special_ef_03_f.c \
+ src/..\image\effects\special_ef\sp_special_ef_01_s.c \
+ src/..\image\effects\special_ef\sp_special_ef_02_s.c \
+ src/..\image\effects\special_ef\sp_special_ef_03_s.c \
+ src/..\image\effects\special_ef\sp_special_ef_01_r.c \
+ src/..\image\effects\special_ef\sp_special_ef_02_r.c \
+ src/..\image\effects\special_ef\sp_special_ef_03_r.c \
+ src/..\image\effects\special_ef\special_flash_01.c \
+ src/..\image\effects\special_ef\special_flash_02.c \
+ src/..\image\effects\special_ef\special_flash_03.c \
+ src/..\image\effects\special_ef\special_flash_04.c \
+ src/..\image\effects\special_ef\special_flash_05.c \
+ src/..\image\effects\special_ef\special_flash_06.c \
+ src/..\image\effects\special_ef\fire_01.c \
+ src/..\image\effects\special_ef\fire_02.c \
+ src/..\image\effects\special_ef\fire_03.c \
+ src/..\image\effects\special_ef\fire_04.c \
+ src/..\image\effects\splash_ef\splash_ef_01.c \
+ src/..\image\effects\splash_ef\splash_ef_02.c \
+ src/..\image\effects\splash_ef\splash_ef_03.c \
+ src/..\image\effects\splash_ef\splash_ef_04.c \
+ src/..\image\boss\knight\knight_01.c \
+ src/..\image\boss\knight\knight_02.c \
+ src/..\image\boss\knight\knight_03.c \
+ src/..\image\boss\knight\knight_10.c \
+ src/..\image\boss\knight\knight_11.c \
+ src/..\image\boss\knight\knight_12.c \
+ src/..\image\boss\knight\knight_13.c \
+ src/..\image\boss\knight\knight_12_half.c \
+ src/..\image\boss\knight\knight_13_half.c \
+ src/..\image\boss\kani\kani_arm_l_01.c \
+ src/..\image\boss\kani\kani_arm_l_02.c \
+ src/..\image\boss\kani\kani_arm_l_03.c \
+ src/..\image\boss\kani\kani_arm_r_01.c \
+ src/..\image\boss\kani\kani_arm_r_02.c \
+ src/..\image\boss\kani\kani_arm_r_03.c \
+ src/..\image\boss\kani\kani_body.c \
+ src/..\image\boss\kani\kani_leg_l_01.c \
+ src/..\image\boss\kani\kani_leg_l_02.c \
+ src/..\image\boss\kani\kani_leg_l_03.c \
+ src/..\image\boss\kani\kani_leg_l_04.c \
+ src/..\image\boss\kani\kani_leg_r_01.c \
+ src/..\image\boss\kani\kani_leg_r_02.c \
+ src/..\image\boss\kani\kani_leg_r_03.c \
+ src/..\image\boss\kani\kani_leg_r_04.c \
+ src/..\image\other\e_bar_proto.c src/..\image\items\coin_small_01.c \
+ src/..\image\items\coin_small_02.c src/..\image\items\coin_small_03.c \
+ src/..\image\items\coin_small_04.c
+TableData.o : src/TableData.c src/all.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h
+Map.o : src/Map.c src/all.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h src/map.h
+AnimeData.o : src/AnimeData.c src/all.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h
+Action.o : src/Action.c src/all.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h
+String.o : src/String.c src/All.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h src/all.h
+Sprite.o : src/Sprite.c src/All.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h src/all.h
+Sin_tbl.o : src/Sin_tbl.c C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h
+Hero.o : src/Hero.c src/all.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h
+Battle.o : src/Battle.c src/all.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h
+Magic.o : src/Magic.c src/all.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h
+Enemy.o : src/Enemy.c src/all.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h
+Skill.o : src/Skill.c src/all.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h
+Special.o : src/Special.c src/all.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h
+Input.o : src/Input.c src/All.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h src/all.h
+MultiSio.o : src/MultiSio.c src/All.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h src/all.h
+Title.o : src/Title.c src/Title.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/../image/Title/title_cloud.c C:/agb/include/agbtypes.h \
+ src/../image/Title/title_16_bg.c \
+ src/../image/Title/title_main_bg_01.c \
+ src/../image/Title/title_main_bg_02.c \
+ src/../image/Title/title_main_bg_03.c
+Move.o : src/Move.c src/all.h C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h \
+ src/MultiSio.h src/define.h src/typedef.h src/global.h \
+ src/prototype.h src/macro.h src/string.h src/input.h src/sprite.h \
+ src/Title.h src/hard_init.h src/Briefing.h
+Briefing.o : src/Briefing.c src/Briefing.h src/all.h \
+ C:/agb/include/agb.h C:/agb/include/AgbTypes.h \
+ C:/agb/include/AgbDefine.h C:/agb/include/AgbMemoryMap.h \
+ C:/agb/include/AgbMacro.h C:/agb/include/AgbSystemCall.h \
+ C:/agb/include/AgbSound.h C:/agb/include/AgbMultiBoot.h \
+ C:/agb/include/IsAgbPrint.h src/MultiSio.h src/define.h src/typedef.h \
+ src/global.h src/prototype.h src/macro.h src/string.h src/input.h \
+ src/sprite.h src/Title.h src/hard_init.h \
+ src/../image/briefing/char_select_frame.c C:/agb/include/agbtypes.h \
+ src/../image/briefing/stage_select_frame.c \
+ src/../image/briefing/winner_frame.c \
+ src/../image/briefing/woods_icon.c src/../image/briefing/ruins_icon.c \
+ src/../image/briefing/snow_icon.c \
+ src/../image/briefing/select_speed.c \
+ src/../image/briefing/select_magic.c \
+ src/../image/briefing/select_petit.c \
+ src/../image/briefing/select_beast.c \
+ src/../image/briefing/select_power.c \
+ src/../image/briefing/player1_logo.c \
+ src/../image/briefing/player2_logo.c \
+ src/../image/briefing/player3_logo.c \
+ src/../image/briefing/player4_logo.c

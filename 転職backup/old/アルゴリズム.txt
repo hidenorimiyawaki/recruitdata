@@ -1,0 +1,208 @@
+// 主要ヘッダ群
+
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm> // sort, min, max, reverse
+#include <map>
+#include <unordered_map>
+#include <set>
+#include <unordered_set>
+#include <queue> // priority_queue
+#include <stack>
+#include <cmath> // abs, pow, sqrt
+#include <numeric> // accumulate
+#include <limits> // numeric_limits
+
+using namespace std;
+
+// オーバーフロー対策の型定義（TDとして必須）
+using ll = long long;
+const ll INF = numeric_limits<ll>::max();
+
+
+--------------------------------------------------------------
+
+1. 累積和 (Prefix Sums)【重要度：特大】 
+Codilityで最も頻出。配列の区間和（Range Sum）を $O(1)$ で求めるための必須テクニック。
+
+いつ使うか: 「配列の $A[i]$ から $A[j]$ までの合計は？」という質問が大量に来る時。
+
+TD視点: $O(N^2)$ のループを $O(N)$ に落とすための基本設計。
+
+// 入力: vector<int> A
+
+int n = A.size();
+// P[i] は A[0]...A[i-1] までの和 (P[0]=0)
+vector<ll> P(n + 1, 0);
+
+for (int i = 0; i < n; ++i) {
+    P[i + 1] = P[i] + A[i];
+}
+
+// クエリ: A[left] から A[right] までの和を取得 (0-indexed)
+// left, right は inclusive
+auto getSum = [&](int left, int right) -> ll {
+    if (left > right) return 0;
+    return P[right + 1] - P[left];
+};
+
+--------------------------------------------------------------
+2. ハッシュマップでの集計 (Frequency Counter)【重要度：大】
+
+要素の出現回数を数える、重複を確認する。
+
+いつ使うか: 「ペアを探す」「重複要素を見つける」「一番多い要素は？」
+
+TD視点: 配列探索 $O(N)$ を $O(1)$ に高速化するデータ構造選定能力。
+
+
+C++// 入力: vector<int> A
+unordered_map<int, int> counts;
+for (int x : A) {
+    counts[x]++;
+}
+
+// 使用例: 出現回数が1回のものを探す
+for (auto const& [key, val] : counts) {
+    if (val == 1) {
+        // key がユニークな要素
+    }
+}
+
+
+--------------------------------------------------------------
+
+3. 尺取り法 (Two Pointers / Sliding Window)【重要度：大】
+
+条件を満たす「部分列」の最大・最小長さを求める。
+
+いつ使うか: 「和がK以上になる最小の部分列は？」「ユニークな要素がK個以下の最長区間は？」
+
+
+ポイント: rightを進め、条件が崩れたらleftを進める。
+
+
+C++// 入力: vector<int> A, 条件ターゲット K
+int n = A.size();
+int right = 0;
+ll current_sum = 0;
+int min_len = n + 1;
+
+for (int left = 0; left < n; ++left) {
+    // 条件を満たすまで right を進める
+    while (right < n && current_sum < K) { // 条件式は問題による
+        current_sum += A[right];
+        right++;
+    }
+
+    // 条件を満たした場合の処理（長さの更新など）
+    if (current_sum >= K) {
+        min_len = min(min_len, right - left);
+    }
+
+    // 次のループのために left の分を引く
+    if (right == left) right++; // rightがleftより後ろに行かない対策
+    else current_sum -= A[left];
+}
+
+--------------------------------------------------------------
+
+4. 二分探索 (Binary Search) - 
+
+答えで探索【重要度：中〜大】単なる検索 (std::lower_bound) ではなく、「答えの値」を探索するパターン。
+
+いつ使うか: 「最大値の最小化」や「最小値の最大化」を問われた時（Min-Max問題）。
+答えが単調増加/減少する場合。例: 「K人で荷物を運ぶ時、一人が運ぶ最大重量を最小にせよ」
+
+
+C++// 判定関数: 値 x が条件を満たすか (true/false)
+
+
+auto check = [&](ll x) -> bool {
+    // ここにシミュレーションロジックを書く O(N)
+    // 例: 最大重量 x で全員運びきれるか？
+    return true; 
+};
+
+// 探索範囲の設定 (答えになりうる最小値と最大値)
+ll low = 0, high = 1e16; 
+ll ans = high;
+
+while (low <= high) {
+    ll mid = low + (high - low) / 2;
+    if (check(mid)) {
+        ans = mid;
+        high = mid - 1; // より小さい値でいけるか試す
+    } else {
+        low = mid + 1;  // 無理なので値を大きくする
+    }
+}
+// ans に最小の答えが入る
+
+--------------------------------------------------------------
+
+5. スタック・キュー (Stack & Queue)【重要度：中】特定の順序処理が必要な場合。
+
+
+いつ使うか:Stack: カッコの対応 (())), 魚が食い合う問題 (Codility: Fish)。Queue: 幅優先探索 (BFS)。
+
+
+C++// Stack: カッコの整合性チェック例
+string S = "{[()]}";
+stack<char> st;
+bool possible = true;
+
+for(char c : S){
+    if(c == '{' || c == '[' || c == '(') {
+        st.push(c);
+    } else {
+        if(st.empty()) { possible = false; break; }
+        char top = st.top();
+        if((c == '}' && top == '{') || 
+           (c == ']' && top == '[') || 
+           (c == ')' && top == '(')) {
+            st.pop();
+        } else {
+            possible = false; break;
+        }
+    }
+}
+if(!st.empty()) possible = false;
+
+--------------------------------------------------------------
+
+
+6. ソートと貪欲法 (Sorting & Greedy)【重要度：中】問題を簡単にするための第一手。
+
+いつ使うか: 「区間の重なりを調べる」「最大数を稼ぐ」。とりあえずソートすると見えてくることが多い。
+
+TD視点: 計算量を $O(N \log N)$ に確定させる。C++// 例: 区間（開始、終了）の重なりチェック
+
+
+// vector<pair<int, int>> intervals;
+sort(intervals.begin(), intervals.end()); // 開始時間でソート
+
+int count = 0;
+int current_end = -1;
+
+for (auto p : intervals) {
+    if (p.first > current_end) {
+        // 重なっていない
+        count++;
+        current_end = p.second;
+    } else {
+        // 重なっている場合の処理
+        // 例: 終了時間を更新する？無視する？
+    }
+}
+7. エッジケース・チェックリスト (TD必須)コードの冒頭にこれを入れるだけで、「堅牢性」のアピールになります。C++// 1. 入力が空、または極小の場合
+if (A.empty()) return 0;
+if (A.size() == 1) return A[0];
+
+// 2. 数値が極端に大きい/小さい場合 (long longの使用)
+// 入力制約を見て、int (2*10^9) を超える可能性があるか確認
+
+// 3. ゼロ除算の可能性
+// if (divisor == 0) ...
+

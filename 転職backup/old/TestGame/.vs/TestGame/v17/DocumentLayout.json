@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\crowh\\Desktop\\TestGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0814BDB-B3BB-4545-9203-B46C731B5F2A}|TestGame.vcxproj|C:\\Users\\crowh\\Desktop\\TestGame\\src\\bg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0814BDB-B3BB-4545-9203-B46C731B5F2A}|TestGame.vcxproj|solutionrelative:src\\bg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bg.h",
+              "DocumentMoniker": "C:\\Users\\crowh\\Desktop\\TestGame\\src\\bg.h",
+              "RelativeDocumentMoniker": "src\\bg.h",
+              "ToolTip": "C:\\Users\\crowh\\Desktop\\TestGame\\src\\bg.h",
+              "RelativeToolTip": "src\\bg.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-14T02:07:06.3Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

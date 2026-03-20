@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>ﾋﾞﾙﾄﾞのﾛｸﾞ</h1>
+<h3>
+--------------------構成: ScripteEditor - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo"Release/ScripteEditor.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\MASTER\My Documents\プロジェクト\就職作品\TOOL\HTML作成ツール\ソースファイル\ScripteEditor\ScripteEditor.rc"" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\MASTER\LOCALS~1\Temp\RSP25.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ScripteEditor.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\MASTER\My Documents\プロジェクト\就職作品\TOOL\HTML作成ツール\ソースファイル\ScripteEditor\ScripteEditor.cpp"
+"C:\Documents and Settings\MASTER\My Documents\プロジェクト\就職作品\TOOL\HTML作成ツール\ソースファイル\ScripteEditor\ScripteEditorDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MASTER\LOCALS~1\Temp\RSP25.tmp" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\MASTER\LOCALS~1\Temp\RSP26.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ScripteEditor.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\MASTER\My Documents\プロジェクト\就職作品\TOOL\HTML作成ツール\ソースファイル\ScripteEditor\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MASTER\LOCALS~1\Temp\RSP26.tmp" 
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/ScripteEditor.pdb" /machine:I386 /out:"Release/ScripteEditor.exe"  ".\Release\ScripteEditor.obj" ".\Release\ScripteEditorDlg.obj" ".\Release\StdAfx.obj" ".\Release\ScripteEditor.res" " の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+StdAfx.cpp
+ｺﾝﾊﾟｲﾙ中...
+ScripteEditor.cpp
+ScripteEditorDlg.cpp
+ｺｰﾄﾞを生成中...
+ﾘﾝｸ中...
+
+
+
+<h3>結果</h3>
+ScripteEditor.exe - ｴﾗｰ 0、警告 0
+</pre>
+</body>
+</html>

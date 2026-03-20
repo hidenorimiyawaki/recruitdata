@@ -1,0 +1,672 @@
+Archive member included       because of file (symbol)
+
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(__main.o)
+                              main.o (__gccmain)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_call_via_rX.o)
+                              hard_init.o (_call_via_r0)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_ctors.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(__main.o) (__CTOR_LIST__)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_exit.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(__main.o) (_exit_dummy_decl)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(atexit.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(__main.o) (atexit)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(impure.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(atexit.o) (_impure_ptr)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(malloc.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(atexit.o) (malloc)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mallocr.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(malloc.o) (_malloc_r)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mlock.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mallocr.o) (__malloc_lock)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(sbrkr.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mallocr.o) (_sbrk_r)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(syscalls.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(sbrkr.o) (_sbrk)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(errno.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(syscalls.o) (__errno)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(freer.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(malloc.o) (_free_r)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(libcfunc.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(syscalls.o) (abort)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(strlen.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(syscalls.o) (strlen)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_udivsi3.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(freer.o) (__udivsi3)
+C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_dvmd_tls.o)
+                              C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_udivsi3.o) (__div0)
+
+Allocating common symbols
+Common symbol       size              file
+
+b_dmg               0x4               main.o
+b_hp                0x4               main.o
+start_cnt           0x4               main.o
+p_dm_cnt            0x4               main.o
+v_blank_fnc         0x4               hard_init.o
+errno               0x4               C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(sbrkr.o)
+ph                  0x4               main.o
+b_fire_x            0x4               main.o
+at                  0x4               main.o
+p_g                 0x4               main.o
+jump_cnt            0x4               main.o
+p_hp                0x4               main.o
+p_dmg               0x4               main.o
+cnt                 0x4               main.o
+boss_y              0x4               main.o
+game_mode           0x4               main.o
+bfp_y               0x4               main.o
+b_dm_cnt            0x4               main.o
+bfx                 0x4               main.o
+end_cnt             0x4               main.o
+oam_buffer          0x400             main.o
+i                   0x4               main.o
+nowKey              0x4               main.o
+m_cnt               0x4               main.o
+pos_y               0x4               main.o
+oldKey              0x4               main.o
+hanten              0x4               main.o
+IntrMainBuf         0x800             hard_init.o
+boss_x              0x4               main.o
+pos_x               0x4               main.o
+wave_x              0x4               main.o
+jump_ok             0x4               main.o
+b_fire_y            0x4               main.o
+b_at_cnt            0x4               main.o
+IntrCheck           0x4               hard_init.o
+bfp_x               0x4               main.o
+wave_y              0x4               main.o
+b_at                0x4               main.o
+at_cnt              0x4               main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD crt0.o
+LOAD main.o
+LOAD hard_init.o
+LOAD C:/agb/lib/libagbsyscall.a
+LOAD C:/agb/lib/libisagbprn.a
+LOAD C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a
+LOAD C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a
+LOAD C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libc.a
+LOAD C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a
+Address of section .bss set to 0x3000000
+Address of section .text set to 0x8000000
+                0x00008000                .=0x8000
+
+.interp
+ *(.interp)
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.text           0x08000000     0x28ac
+ *(.text)
+ .text          0x08000000      0x1cc crt0.o
+                0x08000000                _start
+                0x080000c0                start_vector
+                0x080000fc                intr_main
+ .text          0x080001cc     0x1650 main.o
+                0x080014f4                op
+                0x08000af8                bf_move
+                0x080008fc                KeyManager
+                0x08000924                b_move
+                0x08001484                p_death
+                0x08000c98                p_move
+                0x08000c48                b_death
+                0x080013cc                p_jump
+                0x08000b44                b_dm
+                0x080012ec                p_gd
+                0x080001cc                main
+                0x08000f78                p_dm
+                0x08000a64                b_atack
+                0x08000b9c                b_dm_pa
+                0x08001174                p_dm_pa
+                0x08000d68                p_anime
+                0x08000d6c                p_at
+ .text          0x0800181c      0x21c hard_init.o
+                0x08001a18                V_Wait
+                0x080018b4                ClearOamRam
+                0x080019f0                V_Intr_Clear
+                0x0800188c                ClearVram
+                0x08001a04                V_Intr_Set
+                0x08001918                ClearPaletteRam
+                0x08001940                InitHardware
+                0x08001974                InitVBlank
+                0x0800183c                ClearWorkRam
+                0x08001878                ClearGraphicRam
+                0x080019b4                SetVBlankFunc
+                0x080019ec                dummy
+                0x0800181c                ClearRamAll
+                0x080019d0                VBlankFunc
+ .text          0x08001a38       0x8c C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(__main.o)
+                0x08001aac                __gccmain
+                0x08001a38                __do_global_dtors
+                0x08001a60                __do_global_ctors
+ .text          0x08001ac4       0x3c C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_call_via_rX.o)
+                0x08001acc                _call_via_r2
+                0x08001adc                _call_via_r6
+                0x08001ad8                _call_via_r5
+                0x08001ad0                _call_via_r3
+                0x08001af0                _call_via_fp
+                0x08001ae4                _call_via_r8
+                0x08001ae0                _call_via_r7
+                0x08001ac4                _call_via_r0
+                0x08001aec                _call_via_sl
+                0x08001af8                _call_via_sp
+                0x08001ae8                _call_via_r9
+                0x08001ad4                _call_via_r4
+                0x08001ac8                _call_via_r1
+                0x08001af4                _call_via_ip
+                0x08001afc                _call_via_lr
+ .text          0x08001b00       0x5c C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(atexit.o)
+                0x08001b00                atexit
+ .text          0x08001b5c       0x28 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(malloc.o)
+                0x08001b5c                malloc
+                0x08001b70                free
+ .text          0x08001b84      0x51c C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mallocr.o)
+                0x08001ce0                _malloc_r
+ .text          0x080020a0        0x8 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mlock.o)
+                0x080020a4                __malloc_unlock
+                0x080020a0                __malloc_lock
+ .text          0x080020a8       0x2c C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(sbrkr.o)
+                0x080020a8                _sbrk_r
+ .text          0x080020d4      0x464 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(syscalls.o)
+                0x08002490                _getpid
+                0x08002140                initialise_monitor_handles
+                0x080024d0                _fstat
+                0x080023fc                _open
+                0x08002494                _sbrk
+                0x080024e4                _raise
+                0x08002514                _times
+                0x080022e0                _lseek
+                0x080022ec                _swiwrite
+                0x0800225c                _swilseek
+                0x08002410                _swiclose
+                0x0800235c                _swiopen
+                0x080024dc                _unlink
+                0x08002310                _write
+                0x08002470                _kill
+                0x080024e8                _gettimeofday
+                0x08002214                _read
+                0x08002450                _exit
+                0x080021f0                _swiread
+                0x08002444                _close
+ .text          0x08002538        0xc C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(errno.o)
+                0x08002538                __errno
+ .text          0x08002544      0x280 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(freer.o)
+                0x08002544                _free_r
+                0x08002704                _malloc_trim_r
+ .text          0x080027c4       0x28 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(libcfunc.o)
+                0x080027e4                isatty
+                0x080027c4                abort
+                0x080027e8                alarm
+ .text          0x080027ec       0x44 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(strlen.o)
+                0x080027ec                strlen
+ .text          0x08002830       0x78 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_udivsi3.o)
+                0x08002830                __udivsi3
+ .text          0x080028a8        0x4 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_dvmd_tls.o)
+                0x080028a8                __div0
+ *(.text.*)
+ *(.stub)
+ *(.gnu.warning)
+ *(.gnu.linkonce.t*)
+ *(.glue_7t)
+ *(.glue_7)
+                0x080028ac                _etext=.
+                0x080028ac                PROVIDE (etext, .)
+
+.fini
+ *(.fini)
+
+.rodata         0x080028ac     0x7da4
+ *(.rodata)
+ .rodata        0x080028ac     0x7d40 main.o
+                0x08008a6c                bg4_Character
+                0x080028cc                Player1_Char
+                0x0800782c                bg3_Character
+                0x0800824c                bg3_Map
+                0x0800a3ec                push_Char
+                0x08002d0c                Player1_2_Char
+                0x08005cec                bg2_Character
+                0x08004aec                ht_Palette
+                0x0800356c                p_g1_Palette
+                0x08003bec                p2_at2_Char
+                0x08004b0c                ht_Char
+                0x0800400c                boss_Palette
+                0x080028ac                Player1_Palette
+                0x080037ac                Player2_Char
+                0x080048cc                life_Palette
+                0x08003dec                P_g2_Palette
+                0x0800780c                bg3_Palette
+                0x0800a3cc                push_Palette
+                0x0800334c                wave_Palette
+                0x08004b8c                bg1_Palette
+                0x080039ac                p2_at1_Palette
+                0x0800402c                boss_Char
+                0x0800312c                p_at2_Palette
+                0x08003bcc                p2_at2_Palette
+                0x08002f2c                p_at1_Char
+                0x08009bcc                start_Char
+                0x08002cec                Player1_2_Palette
+                0x08008a4c                bg4_Palette
+                0x08009bac                start_Palette
+                0x0800482c                b_fire_Palette
+                0x080093ac                bg4_Map
+                0x0800484c                b_fire_Char
+                0x08002acc                Player1_1_Palette
+                0x08004bac                bg1_Character
+                0x0800358c                p_g1_Char
+                0x0800314c                p_at2_Char
+                0x080054cc                bg1_Map
+                0x080048ec                life_Char
+                0x08003e0c                P_g2_Char
+                0x080039cc                p2_at1_Char
+                0x08005ccc                bg2_Palette
+                0x0800700c                bg2_Map
+                0x0800336c                wave_Char
+                0x08002f0c                p_at1_Palette
+                0x08002aec                Player1_1_Char
+                0x0800378c                Player2_Palette
+ .rodata        0x0800a5ec       0x38 hard_init.o
+                0x0800a5ec                IntrTable
+ .rodata        0x0800a624        0x4 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(impure.o)
+ .rodata        0x0800a628       0x28 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(syscalls.o)
+ *(.rodata.*)
+ *(.gnu.linkonce.r*)
+
+.rodata1
+ *(.rodata1)
+                0x0800a750                .=(ALIGN(0x100)+(.&0xff))
+
+.data           0x0800a750      0x808
+ *(.data)
+ .data          0x0800a750       0xb8 main.o
+                0x0800a7b8                boss_idou_y
+                0x0800a750                jump
+                0x0800a768                boss_idou_x
+ .data          0x0800a808        0x8 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(__main.o)
+                0x0800a80c                _exit_dummy_ref
+ .data          0x0800a810       0x10 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_ctors.o)
+                0x0800a810                __CTOR_LIST__
+                0x0800a818                __DTOR_LIST__
+ .data          0x0800a820        0x4 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_exit.o)
+                0x0800a820                _exit_dummy_decl
+ .data          0x0800a824      0x2f0 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(impure.o)
+                0x0800ab10                _impure_ptr
+ .data          0x0800ab14      0x444 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mallocr.o)
+                0x0800af20                __malloc_top_pad
+                0x0800af28                __malloc_max_sbrked_mem
+                0x0800af24                __malloc_sbrk_base
+                0x0800af30                __malloc_current_mallinfo
+                0x0800ab14                __malloc_av_
+                0x0800af2c                __malloc_max_total_mem
+                0x0800af1c                __malloc_trim_threshold
+ *(.data.*)
+ *(.gnu.linkonce.d*)
+
+.data1
+ *(.data1)
+
+.ctors
+ EXCLUDE_FILE ( *crtend.o )*(.ctors)
+ *(SORT(.ctors.*))
+ *crtend(.ctors)
+
+.dtors
+ EXCLUDE_FILE ( *crtend.o )*(.dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+
+.got
+ *(.got.plt)
+ *(.got)
+
+.dynamic
+ *(.dynamic)
+
+.sdata
+ *(.sdata)
+ *(.sdata.*)
+                0x0800af58                _edata=.
+                0x0800af58                PROVIDE (edata, .)
+                0x0800af58                __bss_start=.
+                0x0800af58                __bss_start__=.
+
+.sbss
+ *(.sbss)
+ *(.scommon)
+
+.bss            0x03000000      0xd68
+ *(.dynbss)
+ *(.bss)
+ .bss           0x03000000        0x4 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(__main.o)
+ *fill*         0x03000004        0x4
+ .bss           0x03000008       0xb0 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(syscalls.o)
+ *(.bss.*)
+ *(COMMON)
+ *fill*         0x030000b8        0x8
+ COMMON         0x030000c0      0x490 main.o
+                                  0x0 (size before relaxing)
+                0x030000c0                b_dmg
+                0x030000c4                b_hp
+                0x030000c8                start_cnt
+                0x030000cc                p_dm_cnt
+                0x030000d0                ph
+                0x030000d4                b_fire_x
+                0x030000d8                at
+                0x030000dc                p_g
+                0x030000e0                jump_cnt
+                0x030000e4                p_hp
+                0x030000e8                p_dmg
+                0x030000ec                cnt
+                0x030000f0                boss_y
+                0x030000f4                game_mode
+                0x030000f8                bfp_y
+                0x030000fc                b_dm_cnt
+                0x03000100                bfx
+                0x03000104                end_cnt
+                0x03000110                oam_buffer
+                0x03000510                i
+                0x03000514                nowKey
+                0x03000518                m_cnt
+                0x0300051c                pos_y
+                0x03000520                oldKey
+                0x03000524                hanten
+                0x03000528                boss_x
+                0x0300052c                pos_x
+                0x03000530                wave_x
+                0x03000534                jump_ok
+                0x03000538                b_fire_y
+                0x0300053c                b_at_cnt
+                0x03000540                bfp_x
+                0x03000544                wave_y
+                0x03000548                b_at
+                0x0300054c                at_cnt
+ COMMON         0x03000550      0x814 hard_init.o
+                                  0x0 (size before relaxing)
+                0x03000550                v_blank_fnc
+                0x03000560                IntrMainBuf
+                0x03000d60                IntrCheck
+ COMMON         0x03000d64        0x4 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(sbrkr.o)
+                                  0x0 (size before relaxing)
+                0x03000d64                errno
+                0x03000d68                .=ALIGN(0x4)
+                0x03000d68                .=ALIGN(0x4)
+                0x03000d68                _end=.
+                0x03000d68                _bss_end__=.
+                0x03000d68                __bss_end__=.
+                0x03000d68                PROVIDE (end, .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 main.o
+ .debug_aranges
+                0x00000020       0x20 hard_init.o
+ .debug_aranges
+                0x00000040       0x20 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(__main.o)
+ .debug_aranges
+                0x00000060       0x20 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(atexit.o)
+ .debug_aranges
+                0x00000080       0x20 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(malloc.o)
+ .debug_aranges
+                0x000000a0       0x20 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mallocr.o)
+ .debug_aranges
+                0x000000c0       0x20 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mlock.o)
+ .debug_aranges
+                0x000000e0       0x20 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(sbrkr.o)
+ .debug_aranges
+                0x00000100       0x20 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(syscalls.o)
+ .debug_aranges
+                0x00000120       0x20 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(errno.o)
+ .debug_aranges
+                0x00000140       0x20 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(freer.o)
+ .debug_aranges
+                0x00000160       0x20 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(libcfunc.o)
+ .debug_aranges
+                0x00000180       0x20 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(strlen.o)
+
+.debug_pubnames
+                0x00000000      0xa18
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x55e main.o
+ .debug_pubnames
+                0x0000055e      0x12b hard_init.o
+ .debug_pubnames
+                0x00000689       0x4c C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(__main.o)
+ .debug_pubnames
+                0x000006d5       0x1d C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(atexit.o)
+ .debug_pubnames
+                0x000006f2       0x22 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(impure.o)
+ .debug_pubnames
+                0x00000714       0x26 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(malloc.o)
+ .debug_pubnames
+                0x0000073a       0xce C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mallocr.o)
+ .debug_pubnames
+                0x00000808       0x38 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mlock.o)
+ .debug_pubnames
+                0x00000840       0x28 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(sbrkr.o)
+ .debug_pubnames
+                0x00000868      0x113 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(syscalls.o)
+ .debug_pubnames
+                0x0000097b       0x1e C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(errno.o)
+ .debug_pubnames
+                0x00000999       0x31 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(freer.o)
+ .debug_pubnames
+                0x000009ca       0x31 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(libcfunc.o)
+ .debug_pubnames
+                0x000009fb       0x1d C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(strlen.o)
+
+.debug_info     0x00000000     0xe646
+ *(.debug_info)
+ .debug_info    0x00000000     0x3f34 main.o
+ .debug_info    0x00003f34     0x306e hard_init.o
+ .debug_info    0x00006fa2      0x104 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(__main.o)
+ .debug_info    0x000070a6       0xa8 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_ctors.o)
+ .debug_info    0x0000714e       0xa8 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_exit.o)
+ .debug_info    0x000071f6      0x9c9 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(atexit.o)
+ .debug_info    0x00007bbf      0x90d C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(impure.o)
+ .debug_info    0x000084cc      0xa96 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(malloc.o)
+ .debug_info    0x00008f62      0xf56 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mallocr.o)
+ .debug_info    0x00009eb8      0x9d1 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mlock.o)
+ .debug_info    0x0000a889      0xaea C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(sbrkr.o)
+ .debug_info    0x0000b373     0x1833 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(syscalls.o)
+ .debug_info    0x0000cba6      0x91b C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(errno.o)
+ .debug_info    0x0000d4c1      0xe2d C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(freer.o)
+ .debug_info    0x0000e2ee      0x1ab C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(libcfunc.o)
+ .debug_info    0x0000e499      0x1ad C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(strlen.o)
+
+.debug_abbrev   0x00000000     0x1007
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1af main.o
+ .debug_abbrev  0x000001af      0x169 hard_init.o
+ .debug_abbrev  0x00000318       0x20 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(__main.o)
+ .debug_abbrev  0x00000338        0xd C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_ctors.o)
+ .debug_abbrev  0x00000345        0xd C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_exit.o)
+ .debug_abbrev  0x00000352      0x126 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(atexit.o)
+ .debug_abbrev  0x00000478       0xeb C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(impure.o)
+ .debug_abbrev  0x00000563      0x121 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(malloc.o)
+ .debug_abbrev  0x00000684      0x16d C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mallocr.o)
+ .debug_abbrev  0x000007f1       0xec C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mlock.o)
+ .debug_abbrev  0x000008dd      0x126 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(sbrkr.o)
+ .debug_abbrev  0x00000a03      0x269 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(syscalls.o)
+ .debug_abbrev  0x00000c6c       0xf9 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(errno.o)
+ .debug_abbrev  0x00000d65      0x162 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(freer.o)
+ .debug_abbrev  0x00000ec7       0xce C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(libcfunc.o)
+ .debug_abbrev  0x00000f95       0x72 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(strlen.o)
+
+.debug_line     0x00000000     0x4025
+ *(.debug_line)
+ .debug_line    0x00000000     0x11c4 main.o
+ .debug_line    0x000011c4      0x306 hard_init.o
+ .debug_line    0x000014ca      0x322 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(atexit.o)
+ .debug_line    0x000017ec      0x346 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(malloc.o)
+ .debug_line    0x00001b32      0x84c C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mallocr.o)
+ .debug_line    0x0000237e      0x279 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(mlock.o)
+ .debug_line    0x000025f7      0x2f3 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(sbrkr.o)
+ .debug_line    0x000028ea      0xcb1 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(syscalls.o)
+ .debug_line    0x0000359b      0x274 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(errno.o)
+ .debug_line    0x0000380f      0x596 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(freer.o)
+ .debug_line    0x00003da5       0xe3 C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(libcfunc.o)
+ .debug_line    0x00003e88      0x19d C:\PROGRA~1\CYGNUS\THUMBELF-000512\H-I686-CYGWIN32\BIN/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(strlen.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.stack          0x00080000        0x0
+                0x00080000                _stack=.
+ *(.stack)
+OUTPUT(sample.elf elf32-littlearm)

@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>ﾋﾞﾙﾄﾞのﾛｸﾞ</h1>
+<h3>
+--------------------構成: DougaEditor - Win32 Debug--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo"Debug/DougaEditor.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\MASTER\My Documents\プロジェクト\就職作品\TOOL\HTML作成ツール\ソースファイル\DougaEditor\DougaEditor.rc"" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\MASTER\LOCALS~1\Temp\RSP14.tmp" を作成し、次の内容を記録します
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DougaEditor.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\MASTER\My Documents\プロジェクト\就職作品\TOOL\HTML作成ツール\ソースファイル\DougaEditor\DougaEditor.cpp"
+"C:\Documents and Settings\MASTER\My Documents\プロジェクト\就職作品\TOOL\HTML作成ツール\ソースファイル\DougaEditor\DougaEditorDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MASTER\LOCALS~1\Temp\RSP14.tmp" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\MASTER\LOCALS~1\Temp\RSP15.tmp" を作成し、次の内容を記録します
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DougaEditor.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\MASTER\My Documents\プロジェクト\就職作品\TOOL\HTML作成ツール\ソースファイル\DougaEditor\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MASTER\LOCALS~1\Temp\RSP15.tmp" 
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DougaEditor.pdb" /debug /machine:I386 /out:"Debug/DougaEditor.exe" /pdbtype:sept  ".\Debug\DougaEditor.obj" ".\Debug\DougaEditorDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\DougaEditor.res" " の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+StdAfx.cpp
+ｺﾝﾊﾟｲﾙ中...
+DougaEditor.cpp
+DougaEditorDlg.cpp
+ｺｰﾄﾞを生成中...
+ﾘﾝｸ中...
+
+
+
+<h3>結果</h3>
+DougaEditor.exe - ｴﾗｰ 0、警告 0
+</pre>
+</body>
+</html>

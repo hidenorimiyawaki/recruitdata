@@ -1,0 +1,221 @@
+# Microsoft Developer Studio Project File - Name="èAêEçÏïi" - Package Owner=<4>
+# Microsoft Developer Studio Generated Build File, Format Version 6.00
+# ** ï“èWÇµÇ»Ç¢Ç≈Ç≠ÇæÇ≥Ç¢ **
+
+# TARGTYPE "Win32 (x86) Application" 0x0101
+
+CFG=èAêEçÏïi - Win32 Debug
+!MESSAGE Ç±ÇÍÇÕóLå¯Ç»“≤∏Ãß≤ŸÇ≈ÇÕÇ†ÇËÇ‹ÇπÇÒÅB Ç±ÇÃÃﬂ€ºﬁ™∏ƒÇÀﬁŸƒﬁÇ∑ÇÈÇΩÇﬂÇ…ÇÕ NMAKE ÇégópÇµÇƒÇ≠ÇæÇ≥Ç¢ÅB
+!MESSAGE [“≤∏Ãß≤ŸÇÃ¥∏ΩŒﬂ∞ƒ] ∫œ›ƒﬁÇégópÇµÇƒé¿çsÇµÇƒÇ≠ÇæÇ≥Ç¢
+!MESSAGE 
+!MESSAGE NMAKE /f "èAêEçÏïi.mak".
+!MESSAGE 
+!MESSAGE NMAKE ÇÃé¿çséûÇ…ç\ê¨ÇéwíËÇ≈Ç´Ç‹Ç∑
+!MESSAGE ∫œ›ƒﬁ ◊≤›è„Ç≈œ∏€ÇÃê›íËÇíËã`ÇµÇ‹Ç∑ÅBó·:
+!MESSAGE 
+!MESSAGE NMAKE /f "èAêEçÏïi.mak" CFG="èAêEçÏïi - Win32 Debug"
+!MESSAGE 
+!MESSAGE ëIëâ¬î\Ç»ÀﬁŸƒﬁ ”∞ƒﬁ:
+!MESSAGE 
+!MESSAGE "èAêEçÏïi - Win32 Release" ("Win32 (x86) Application" óp)
+!MESSAGE "èAêEçÏïi - Win32 Debug" ("Win32 (x86) Application" óp)
+!MESSAGE 
+
+# Begin Project
+# PROP AllowPerConfigDependencies 0
+# PROP Scc_ProjName ""
+# PROP Scc_LocalPath ""
+CPP=cl.exe
+MTL=midl.exe
+RSC=rc.exe
+
+!IF  "$(CFG)" == "èAêEçÏïi - Win32 Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "Release"
+# PROP BASE Intermediate_Dir "Release"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "Release"
+# PROP Intermediate_Dir "Release"
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /YX /FD /c
+# ADD CPP /nologo /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /YX /FD /c
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /win32
+# ADD BASE RSC /l 0x411 /d "NDEBUG"
+# ADD RSC /l 0x411 /d "NDEBUG"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /machine:I386
+# ADD LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /machine:I386
+
+!ELSEIF  "$(CFG)" == "èAêEçÏïi - Win32 Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "Debug"
+# PROP BASE Intermediate_Dir "Debug"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "Debug"
+# PROP Intermediate_Dir "Debug"
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /YX /FD /GZ /c
+# ADD CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /YX /FD /GZ /c
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /win32
+# ADD BASE RSC /l 0x411 /d "_DEBUG"
+# ADD RSC /l 0x411 /d "_DEBUG"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /debug /machine:I386 /pdbtype:sept
+# ADD LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /debug /machine:I386 /pdbtype:sept
+
+!ENDIF 
+
+# Begin Target
+
+# Name "èAêEçÏïi - Win32 Release"
+# Name "èAêEçÏïi - Win32 Debug"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+# Begin Source File
+
+SOURCE=.\src\bg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\billbord.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\enemy.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\main.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\model.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\ModelManager.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\music.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Parts.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\player.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\skinmodel.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\tama.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\zintai.cpp
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=.\src\bg.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\billbord.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\data.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\define.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\enemy.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\global.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\macro.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\main.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\model.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\ModelManager.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\motiondata.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\music.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Parts.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\player.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\skinmodel.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\tama.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\typedef.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\zintai.h
+# End Source File
+# End Group
+# Begin Group "Resource Files"
+
+# PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
+# End Group
+# End Target
+# End Project

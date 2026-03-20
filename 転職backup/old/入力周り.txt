@@ -1,0 +1,177 @@
+入力周りで躓くことはありません。
+
+
+--------------------------------------------------------------
+
+🚀 0. 【必須】高速化のおまじない
+C++のcinはデフォルトだと安全のためにprintfなどと同期をとっており、これが非常に遅いです。 大量の入力がある場合、これがないだけでTLE（時間切れ）になる可能性があります。main関数の先頭に必ず入れてください。
+
+C++
+
+int main() {
+    // Cのstdioとの同期を切る（高速化）
+    std::ios::sync_with_stdio(false);
+    // cinとcoutの結合を切る（高速化）
+    std::cin.tie(nullptr);
+
+    // ...処理...
+    return 0;
+}
+1. 基本パターン：数値と固定長の配列
+最もよく出る「数値を読み取って、その回数分ループする」パターンです。
+
+C++
+
+// パターンA: 整数 N と、それに続く N 個の整数
+// 入力例:
+// 5
+// 10 20 30 40 50
+
+int N;
+cin >> N; // 最初の数を取得
+
+vector<int> A(N);
+for (int i = 0; i < N; ++i) {
+    cin >> A[i]; // 空白や改行は自動でスキップされるので安心
+}
+2. 罠対策パターン：数値の後に文字列行を読む
+これが最大の罠です。 cin >> N; は数値を読み取りますが、改行コードを入力ストリームに残します。 その直後に getline を呼ぶと、空行を読み込んでバグります。
+
+C++
+
+// パターンB: 数値のあとに文字列の行が続く場合
+// 入力例:
+// 3
+// apple banana
+// orange
+// grape
+
+int N;
+cin >> N;
+
+// 【重要】改行コードを捨てる（これがないと次のgetlineが空文字を吸う）
+string dummy;
+getline(cin, dummy); 
+// または cin.ignore(numeric_limits<streamsize>::max(), '\n'); でも可
+
+vector<string> lines(N);
+for(int i = 0; i < N; ++i) {
+    getline(cin, lines[i]); // 空白を含む1行をまるごと取得
+}
+3. 実践パターン：文字列の分割（Split）
+C++には string.split() が標準で存在しません。 そのため、stringstream を使うのが定石です。これはTDとして「文字列解析ツール」を作る際にも役立つ知識です。
+
+3-1. 空白区切りの文字列を分割して配列にする
+入力例："10 20 30" のような1行の文字列を vector<int> にしたい場合。
+
+C++
+
+#include <sstream> // 必須
+
+// 入力例: "10 20 30 40" という文字列行
+string line;
+getline(cin, line);
+
+stringstream ss(line); // 文字列をストリーム化
+int val;
+vector<int> numbers;
+
+// ストリームから整数として吸い出す（空白は自動スキップ）
+while (ss >> val) {
+    numbers.push_back(val);
+}
+3-2. カンマ区切り（CSV）などを分割する
+入力例："apple,banana,orange" のような特定の区切り文字の場合。
+
+C++
+
+string line;
+cin >> line; // 空白がないならcinでもOK
+
+stringstream ss(line);
+string segment;
+vector<string> result;
+
+// getlineの第3引数にデリミタ(区切り文字)を指定できる
+while (getline(ss, segment, ',')) {
+    result.push_back(segment);
+}
+4. 応用パターン：EOF（入力終わり）まで読み続ける
+入力の数が指定されていない問題（「入力がある限り処理せよ」）の場合。
+
+C++
+
+int x;
+// 入力が成功している間ループし続ける
+while (cin >> x) {
+    // xを使った処理
+}
+🛠️ これだけ持っていけばOK：入力対策チートシート
+本番でコピペして、必要な部分だけコメントアウトを外して使えるテンプレートです。
+
+C++
+
+#include <iostream>
+#include <vector>
+#include <string>
+#include <sstream> // stringstream
+#include <limits>  // numeric_limits
+
+using namespace std;
+
+// 文字列分割用の便利関数（これを定義しておくと楽）
+vector<string> split(const string &s, char delimiter) {
+    vector<string> tokens;
+    string token;
+    istringstream tokenStream(s);
+    while (getline(tokenStream, token, delimiter)) {
+        tokens.push_back(token);
+    }
+    return tokens;
+}
+
+int main() {
+    // 1. 高速化
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    // --- ここから問題に合わせて選択 ---
+
+    // パターンA: 整数 N と 配列 A
+    /*
+    int N;
+    if (!(cin >> N)) return 0;
+    vector<long long> A(N); // long long推奨
+    for(int i=0; i<N; ++i) cin >> A[i];
+    */
+
+    // パターンB: 1行ごとの文字列読み込み
+    /*
+    int N;
+    cin >> N;
+    string dummy; getline(cin, dummy); // 改行飛ばし
+    vector<string> S(N);
+    for(int i=0; i<N; ++i) getline(cin, S[i]);
+    */
+
+    // パターンC: 文字列分割 (例: カンマ区切り)
+    /*
+    string raw_input;
+    cin >> raw_input;
+    vector<string> items = split(raw_input, ',');
+    */
+    
+    // --- ここまで ---
+
+    return 0;
+}
+💡 TD視点でのアドバイス
+stringstream は重い？
+
+確かに毎フレーム実行するゲームループ内では避けるべきですが、コーディングテストやツール開発レベル（数万回の実行）では全く問題になりません。安心して使ってください。
+
+なぜ char* や strtok を使わない？
+
+C言語由来の strtok はスレッドセーフではなく、破壊的操作を行うためバグの温床です。テストでは安全な stringstream や getline を使うのが正解です。
+
+これを手元に置いておけば、入力周りの実装は「作業」になります。本来のアルゴリズム思考に時間を使ってください。

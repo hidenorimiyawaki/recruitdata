@@ -1,0 +1,16 @@
+main.o : main.c C:/agb/include/agb.h C:/agb/include/AgbTypes.h \
+ C:/agb/include/AgbDefine.h C:/agb/include/AgbMemoryMap.h \
+ C:/agb/include/AgbMacro.h C:/agb/include/AgbSystemCall.h \
+ C:/agb/include/AgbSound.h C:/agb/include/AgbMultiBoot.h \
+ C:/agb/include/IsAgbPrint.h hard_init.h .\graph\Player1.c \
+ .\graph\Player1_1.c .\graph\Player1_2.c .\graph\p_at1.c \
+ .\graph\p_at2.c .\graph\wave.c .\graph\p_g1.c .\graph\Player2.c \
+ .\graph\p2_at1.c .\graph\p2_at2.c .\graph\p_g2.c .\graph\boss.c \
+ .\graph\b_fire.c .\graph\life.c .\graph\ht.c .\graph\bg1.c \
+ C:/agb/include/agbtypes.h .\graph\bg2.c .\graph\bg3.c .\graph\bg4.c \
+ .\graph\start.c .\graph\push.c
+hard_init.o : hard_init.c C:/agb/include/agb.h \
+ C:/agb/include/AgbTypes.h C:/agb/include/AgbDefine.h \
+ C:/agb/include/AgbMemoryMap.h C:/agb/include/AgbMacro.h \
+ C:/agb/include/AgbSystemCall.h C:/agb/include/AgbSound.h \
+ C:/agb/include/AgbMultiBoot.h C:/agb/include/IsAgbPrint.h hard_init.h

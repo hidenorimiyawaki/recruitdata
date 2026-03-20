@@ -1,0 +1,1586 @@
+Archive member included       because of file (symbol)
+
+C:/agb/lib/libagbsyscall.a(AgbSysCpuFastSet.o)
+                              src/Main.o (CpuFastSet)
+C:/agb/lib/libagbsyscall.a(AgbSysCpuSet.o)
+                              src/Sprite.o (CpuSet)
+C:/agb/lib/libagbsyscall.a(AgbSysRegisterRamReset.o)
+                              src/MultiSio.o (RegisterRamReset)
+C:/agb/lib/libagbsyscall.a(AgbSysVBlankIntrWait.o)
+                              src/Main.o (VBlankIntrWait)
+C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_call_via_rX.o)
+                              src/MultiSio.o (_call_via_r0)
+C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_udivsi3.o)
+                              src/String.o (__udivsi3)
+C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_umodsi3.o)
+                              src/Map.o (__umodsi3)
+C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_dvmd_tls.o)
+                              C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_udivsi3.o) (__div0)
+C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memcpy.o)
+                              src/String.o (memcpy)
+C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memset.o)
+                              src/String.o (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+enemymg_offset_y    0x4               src/Enemy.o
+Hoffset             0x4               src/Main.o
+MapNo               0x4               src/Main.o
+work_h              0x4               src/Skill.o
+Skill_local_y       0x4               src/Special.o
+Coin                0x30              src/Main.o
+EnemyEffect         0x30              src/Main.o
+EnemyMagic          0x30              src/Main.o
+EnemyNowstatus      0x50              src/Main.o
+IntrTableBuf        0x38              src/Main.o
+PlayerNowstatus     0x60              src/Main.o
+Voffset             0x4               src/Main.o
+PlayerEffect        0x30              src/Main.o
+select              0x4               src/Main.o
+SioFlagsBak         0x4               src/Main.o
+GameTimer           0x4               src/Main.o
+StringNo            0x4               src/Main.o
+PlayerMagic         0xc               src/Main.o
+IntrFuncBuf         0x140             src/MultiSio.o
+Trg                 0x4               src/Main.o
+EnemyNo             0x4               src/Main.o
+SioKey              0x8               src/Main.o
+RecvBuf             0x60              src/Main.o
+SioFlags            0x4               src/Main.o
+SioTrg              0x8               src/Main.o
+SioStartFlag        0x4               src/Main.o
+SioOldKey           0x8               src/Main.o
+PlayerNo            0x4               src/Main.o
+SpBgCnt             0x4               src/Main.o
+Skill_local_x       0x4               src/Special.o
+OldKey              0x4               src/Main.o
+ObjBuf              0xc00             src/Main.o
+PlayerDamEffect     0x30              src/Main.o
+IntrMainBuf         0x100             src/Main.o
+enemymg_offset_x    0x4               src/Enemy.o
+SendBuf             0x18              src/Main.o
+KeyBuf              0x100             src/Main.o
+EnemyCnt            0x4               src/Main.o
+Ms                  0x220             src/MultiSio.o
+GameStatus          0x4               src/Main.o
+Clear               0x4               src/Main.o
+OamBuf              0x400             src/Main.o
+NowAnime2           0x4               src/Main.o
+Key                 0x4               src/Main.o
+RecvFuncBuf         0x40              src/MultiSio.o
+NowAnime            0x4               src/Main.o
+work_v              0x4               src/Skill.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD asm/crt0.o
+LOAD asm/MultiSioAsm.o
+LOAD src/Main.o
+LOAD src/hard_init.o
+LOAD src/GameData.o
+LOAD src/TableData.o
+LOAD src/Map.o
+LOAD src/AnimeData.o
+LOAD src/Action.o
+LOAD src/String.o
+LOAD src/Sprite.o
+LOAD src/Sin_tbl.o
+LOAD src/Hero.o
+LOAD src/Battle.o
+LOAD src/Magic.o
+LOAD src/Enemy.o
+LOAD src/Skill.o
+LOAD src/Special.o
+LOAD src/Input.o
+LOAD src/MultiSio.o
+LOAD src/Title.o
+LOAD src/Move.o
+LOAD src/Briefing.o
+LOAD C:/agb/lib/libagbsyscall.a
+LOAD C:/agb/lib/libisagbprn.a
+LOAD C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a
+LOAD C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a
+LOAD C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libc.a
+LOAD C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a
+Address of section .bss set to 0x3000000
+Address of section .text set to 0x8000000
+                0x00008000                .=0x8000
+
+.interp
+ *(.interp)
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.text           0x08000000     0xaa24
+ *(.text)
+ .text          0x08000000      0x1b0 asm/crt0.o
+                0x08000000                _start
+                0x080000c0                start_vector
+                0x080000fc                intr_main
+ .text          0x080001b0      0x160 asm/MultiSioAsm.o
+                0x080001f0                MultiSioIntr
+                0x080001b0                MultiSioRecvBufChange
+ .text          0x08000310       0x64 src/Main.o
+                0x08000310                AgbMain
+ .text          0x08000374       0xf8 src/hard_init.o
+                0x08000468                IntrDummy
+                0x0800040c                ClearOamRam
+                0x08000464                VBlankIntr
+                0x080003e4                ClearVram
+                0x0800043c                ClearPaletteRam
+                0x08000394                ClearWorkRam
+                0x080003d0                ClearGraphicRam
+                0x08000374                ClearRamAll
+ .text          0x0800046c      0x3ec src/Map.o
+                0x080007d0                ClearMapData
+                0x0800046c                MakeMap
+ .text          0x08000858      0x318 src/Action.o
+                0x08000858                Action
+ .text          0x08000b70      0x514 src/String.o
+                0x08000f88                BgKeyPrint
+                0x08000ea0                ObjKeyPrint
+                0x08000b70                ObjStringPrint
+                0x08000dac                BgNumPrint
+                0x08000c30                ObjNumPrint
+                0x08000d0c                BgStringPrint
+ .text          0x08001084      0x4cc src/Sprite.o
+                0x080013c0                OamManager
+                0x08001084                ObjAction
+ .text          0x08001550     0x23c4 src/Hero.o
+                0x08001550                Hero
+ .text          0x08003914      0x9a0 src/Battle.o
+                0x08003914                Battle
+ .text          0x080042b4      0x23c src/Magic.o
+                0x080042b4                Magic
+ .text          0x080044f0     0x2800 src/Enemy.o
+                0x080044f0                Enemy
+                0x08006a18                EnemyMagicAttack
+ .text          0x08006cf0      0x834 src/Skill.o
+                0x08006cf0                Skill
+ .text          0x08007524      0x85c src/Special.o
+                0x08007524                Special
+ .text          0x08007d80       0x40 src/Input.o
+                0x08007d80                KeyManager
+ .text          0x08007dc0      0x580 src/MultiSio.o
+                0x08007dc0                MultiSioInit
+                0x08007f34                MultiSioMain
+                0x080080d4                MultiSioRecvDataCheck
+                0x08007ee4                MultiSioStop
+                0x08008194                SioSetting
+                0x08008060                MultiSioSendDataSet
+                0x08008218                MultiSio
+                0x08007ecc                MultiSioStart
+ .text          0x08008340      0x1d0 src/Title.o
+                0x08008340                Title
+ .text          0x08008510     0x1f58 src/Move.o
+                0x08008510                Move
+ .text          0x0800a468      0x37c src/Briefing.o
+                0x0800a468                Briefing
+ .text          0x0800a7e4        0x4 C:/agb/lib/libagbsyscall.a(AgbSysCpuFastSet.o)
+                0x0800a7e4                CpuFastSet
+ .text          0x0800a7e8        0x4 C:/agb/lib/libagbsyscall.a(AgbSysCpuSet.o)
+                0x0800a7e8                CpuSet
+ .text          0x0800a7ec        0x4 C:/agb/lib/libagbsyscall.a(AgbSysRegisterRamReset.o)
+                0x0800a7ec                RegisterRamReset
+ .text          0x0800a7f0        0x8 C:/agb/lib/libagbsyscall.a(AgbSysVBlankIntrWait.o)
+                0x0800a7f0                VBlankIntrWait
+ .text          0x0800a7f8       0x3c C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_call_via_rX.o)
+                0x0800a800                _call_via_r2
+                0x0800a810                _call_via_r6
+                0x0800a80c                _call_via_r5
+                0x0800a804                _call_via_r3
+                0x0800a824                _call_via_fp
+                0x0800a818                _call_via_r8
+                0x0800a814                _call_via_r7
+                0x0800a7f8                _call_via_r0
+                0x0800a820                _call_via_sl
+                0x0800a82c                _call_via_sp
+                0x0800a81c                _call_via_r9
+                0x0800a808                _call_via_r4
+                0x0800a7fc                _call_via_r1
+                0x0800a828                _call_via_ip
+                0x0800a830                _call_via_lr
+ .text          0x0800a834       0x78 C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_udivsi3.o)
+                0x0800a834                __udivsi3
+ .text          0x0800a8ac       0xc0 C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_umodsi3.o)
+                0x0800a8ac                __umodsi3
+ .text          0x0800a96c        0x4 C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/libgcc.a(_dvmd_tls.o)
+                0x0800a96c                __div0
+ .text          0x0800a970       0x60 C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memcpy.o)
+                0x0800a970                memcpy
+ .text          0x0800a9d0       0x54 C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memset.o)
+                0x0800a9d0                memset
+ *(.text.*)
+ *(.stub)
+ *(.gnu.warning)
+ *(.gnu.linkonce.t*)
+ *(.glue_7t)
+ *(.glue_7)
+                0x0800aa24                _etext=.
+                0x0800aa24                PROVIDE (etext, .)
+
+.fini
+ *(.fini)
+
+.rodata         0x0800aa24    0x8fb3c
+ *(.rodata)
+ .rodata        0x0800aa24       0x34 src/Main.o
+                0x0800aa24                IntrTable
+ .rodata        0x0800aa58    0x67650 src/GameData.o
+                0x08058168                sa_12_r_Char
+                0x08057d68                sa_13_f_Char
+                0x0804df08                ke_01_f_Char
+                0x08023a68                sp_51_s_Char
+                0x0801b668                sp_14_s_Char
+                0x08051f08                go_13_f_Char
+                0x0802b068                mg_64_f_Char
+                0x08029e68                mg_43_f_Char
+                0x08040a68                pw_42_s_Char
+                0x0806ca28                kani_arm_r_03_Char
+                0x0806a228                kani_arm_l_01_Char
+                0x08051108                go_04_f_Char
+                0x0804b908                tr_01_f_Char
+                0x08064578                special_flash_06_Map
+                0x0806da28                kani_leg_l_01_Char
+                0x08069228                knight_12_half_Char
+                0x08038a68                bs_41_f_Char
+                0x08035068                bs_24_s_Char
+                0x08019248                system_Palette
+                0x08071ec8                coin_small_02_Palette
+                0x08058a48                rf_shot_04_Char
+                0x08058568                sa_21_Char
+                0x080190a8                ply_sp_Palette
+                0x08051308                go_01_r_Char
+                0x08071ee8                coin_small_02_Char
+                0x08032868                bs_11_r_Char
+                0x08065a28                knight_01_Char
+                0x0802d068                pt_13_r_Char
+                0x08038068                bs_32_s_Char
+                0x08064a28                fire_01_Char
+                0x08046f68                us_11_r_Char
+                0x0800c378                bg_woods_Map
+                0x0804cf08                tr_16_f_Char
+                0x0804dd08                tr_21_Char
+                0x0803a668                bs_63_f_Char
+                0x08034268                bs_28_f_Char
+                0x08050908                kn_21_Char
+                0x08043e68                nu_21_Char
+                0x08055128                ko_12_f_Palette
+                0x08038468                bs_31_r_Char
+                0x080589e8                rf_shot_01_Char
+                0x08055588                ko_14_f_Char
+                0x08026a68                mg_12_r_Char
+                0x0802fe68                pt_42_s_Char
+                0x08035268                bs_25_s_Char
+                0x0804a268                ui_11_f_Palette
+                0x08037268                bs_28_r_Char
+                0x08031c68                bs_13_f_Char
+                0x0803e468                pw_24_s_Char
+                0x0805a3e8                mg_skill_ef_01_Char
+                0x08019148                emy_kn_Palette
+                0x08019108                emy_sl_Palette
+                0x0803fe68                pw_31_r_Char
+                0x08054548                do_13_r_Char
+                0x08025e68                mg_14_f_Char
+                0x08028868                mg_31_f_Char
+                0x08042068                pw_62_r_Char
+                0x08058c68                dmg_ef_02_Char
+                0x08020668                sp_32_s_Char
+                0x08057568                sa_02_r_Char
+                0x08036a68                bs_25_r_Char
+                0x08041a68                pw_61_s_Char
+                0x08059868                smk_ef_04_Char
+                0x0802c468                pt_11_s_Char
+                0x0804c108                tr_02_r_Char
+                0x08053948                do_11_f_Char
+                0x08029668                mg_32_r_Char
+                0x08022668                sp_43_s_Char
+                0x080450a8                rf_21_Char
+                0x08020e68                sp_31_r_Char
+                0x08070228                kani_leg_r_02_Char
+                0x08026868                mg_11_r_Char
+                0x08054e68                ko_03_r_Palette
+                0x08068a28                knight_13_Char
+                0x080568a8                ko_16_r_Char
+                0x08036668                bs_23_r_Char
+                0x0804a488                ui_12_f_Palette
+                0x0805c6e8                pw_special_ef_01_Char
+                0x08053b48                do_12_f_Char
+                0x0804f908                kn_15_f_Char
+                0x0804aae8                ui_15_f_Palette
+                0x0803fc68                pw_33_s_Char
+                0x08054c88                ko_03_f_Palette
+                0x08054f28                ko_11_f_Char
+                0x0802ae68                mg_63_f_Char
+                0x08024268                sp_63_f_Char
+                0x0803da68                pw_21_s_Char
+                0x08032268                bs_12_s_Char
+                0x0806aa28                kani_arm_l_02_Char
+                0x0802b868                pt_01_s_Char
+                0x0803e068                pw_23_s_Char
+                0x0802d668                pt_22_f_Char
+                0x0804a8e8                ui_14_f_Char
+                0x0802ee68                pt_32_s_Char
+                0x0804f508                kn_13_f_Char
+                0x0801ac68                sp_13_f_Char
+                0x08044a68                rf_03_r_Char
+                0x08065828                splash_ef_04_Char
+                0x0804db08                tr_16_r_Char
+                0x0803cc68                pw_21_f_Char
+                0x080588e8                go_shot_12_Char
+                0x08058968                go_shot_13_Char
+                0x080462c8                us_02_f_Palette
+                0x0805abe8                mg_special_ef_01_Char
+                0x0802de68                pt_23_s_Char
+                0x08065028                fire_04_Char
+                0x08054de8                ko_02_r_Char
+                0x08035868                bs_27_s_Char
+                0x08056228                ko_13_r_Palette
+                0x08055bc8                ko_17_f_Palette
+                0x0804c908                tr_13_f_Char
+                0x0803ca68                pw_14_r_Char
+                0x08049388                ui_02_f_Palette
+                0x08030c68                pt_62_f_Char
+                0x08020268                sp_35_f_Char
+                0x0803a268                bs_61_f_Char
+                0x08033e68                bs_26_f_Char
+                0x08048b68                pz_12_r_Char
+                0x0802a468                mg_51_f_Char
+                0x08032c68                bs_13_r_Char
+                0x08020c68                sp_35_s_Char
+                0x080452a8                rf_31_Char
+                0x0801f068                sp_25_r_Char
+                0x08040668                pw_42_f_Char
+                0x0803b268                pw_01_r_Char
+                0x0801c868                sp_24_f_Char
+                0x08047168                us_21_Char
+                0x08028668                mg_24_r_Char
+                0x08021068                sp_32_r_Char
+                0x0804b308                ui_14_r_Char
+                0x08019208                eft_sp_Palette
+                0x0804a6a8                ui_13_f_Palette
+                0x08021c68                sp_43_f_Char
+                0x08038c68                bs_42_f_Char
+                0x0803fa68                pw_32_s_Char
+                0x08071f88                coin_small_03_Char
+                0x0801fa68                sp_31_f_Char
+                0x0803e868                pw_22_r_Char
+                0x0801d268                sp_21_s_Char
+                0x08052928                go_14_r_Palette
+                0x08045ea8                rf_37_Char
+                0x0803ae68                pw_01_f_Char
+                0x0803c468                pw_11_r_Char
+                0x08028a68                mg_32_f_Char
+                0x08052f48                do_02_f_Char
+                0x0801ec68                sp_23_r_Char
+                0x0802f468                pt_32_r_Char
+                0x08056468                ko_14_r_Char
+                0x0803a868                bs_64_f_Char
+                0x08034668                bs_29_f_Char
+                0x0804af08                ui_12_r_Char
+                0x08067a28                knight_11_Char
+                0x08068228                knight_12_Char
+                0x0804d508                tr_13_r_Char
+                0x08041468                pw_51_r_Char
+                0x0802bc68                pt_11_f_Char
+                0x08025268                mg_01_f_Char
+                0x0801dc68                sp_25_s_Char
+                0x08044c68                rf_11_Palette
+                0x0801e868                sp_22_r_Char
+                0x08037668                bs_29_r_Char
+                0x08059fe8                mg_shot_13_Char
+                0x08049e28                ui_04_f_Palette
+                0x08052328                go_11_r_Char
+                0x08058e68                dmg_ef_03_Char
+                0x08036268                bs_22_r_Char
+                0x08031468                bs_01_s_Char
+                0x08041068                pw_51_f_Char
+                0x08044068                rf_01_f_Char
+                0x08056ac8                ko_17_r_Char
+                0x08069a28                knight_13_half_Char
+                0x0802ea68                pt_33_f_Char
+                0x08019268                system_Char
+                0x0805d0e8                pw_special_ef_04_Char
+                0x08031268                bs_01_f_Char
+                0x08027868                mg_21_s_Char
+                0x08047f68                pz_03_r_Char
+                0x0804a068                ui_04_r_Char
+                0x08044ea8                rf_12_Char
+                0x08053548                do_02_r_Char
+                0x08030e68                pt_63_f_Char
+                0x08059b68                mg_shot_03_Char
+                0x0805eae8                sp_special_ef_01_s_Char
+                0x08058a68                dmg_ef_01_Char
+                0x08026668                mg_14_s_Char
+                0x08034a68                bs_22_s_Char
+                0x08028468                mg_23_r_Char
+                0x08046928                us_02_r_Palette
+                0x08034e68                bs_23_s_Char
+                0x08030668                pt_51_s_Char
+                0x0802ca68                pt_14_s_Char
+                0x08024068                sp_62_f_Char
+                0x0801d068                sp_27_f_Char
+                0x0804e708                kn_02_f_Char
+                0x08021868                sp_41_f_Char
+                0x08063fa8                special_flash_05_Map
+                0x08048968                pz_11_r_Char
+                0x08059068                dmg_ef_04_Char
+                0x0803dc68                pw_22_s_Char
+                0x080454a8                rf_32_Char
+                0x08030a68                pt_61_f_Char
+                0x08026c68                mg_13_r_Char
+                0x08054748                do_14_r_Char
+                0x08021468                sp_34_r_Char
+                0x08044268                rf_02_f_Char
+                0x0806e228                kani_leg_l_02_Char
+                0x0804fb08                kn_16_f_Char
+                0x08025068                sp_90_f_Char
+                0x08056448                ko_14_r_Palette
+                0x0806b228                kani_arm_l_03_Char
+                0x08051908                go_04_r_Char
+                0x0802be68                pt_12_f_Char
+                0x08065428                splash_ef_02_Char
+                0x08025868                mg_11_f_Char
+                0x08026068                mg_11_s_Char
+                0x08066228                knight_02_Char
+                0x08037a68                bs_32_f_Char
+                0x08039e68                bs_51_s_Char
+                0x08032668                bs_14_s_Char
+                0x08036068                bs_21_r_Char
+                0x0804bd08                tr_03_f_Char
+                0x08071a28                e_bar_proto_Char
+                0x0803a468                bs_62_f_Char
+                0x08034068                bs_27_f_Char
+                0x08027268                mg_22_f_Char
+                0x08054d28                ko_01_r_Palette
+                0x0803ec68                pw_23_r_Char
+                0x08034868                bs_21_s_Char
+                0x08048368                pz_11_f_Char
+                0x0802c868                pt_13_s_Char
+                0x08041668                pw_61_f_Char
+                0x08023268                sp_43_r_Char
+                0x08024e68                sp_63_r_Char
+                0x0801f868                sp_28_r_Char
+                0x080493a8                ui_02_f_Char
+                0x08044668                rf_01_r_Char
+                0x0806fa28                kani_leg_r_01_Char
+                0x0804f308                kn_12_f_Char
+                0x0801aa68                sp_12_f_Char
+                0x08050708                kn_16_r_Char
+                0x080191c8                e_bar_proto_Palette
+                0x0805fae8                sp_special_ef_03_s_Char
+                0x080462e8                us_02_f_Char
+                0x08029268                mg_33_s_Char
+                0x0802a068                mg_44_f_Char
+                0x08020a68                sp_34_s_Char
+                0x0804b508                ui_15_r_Char
+                0x0802e268                pt_22_r_Char
+                0x08036e68                bs_26_r_Char
+                0x08059be8                mg_shot_11_Char
+                0x08055be8                ko_17_f_Char
+                0x0801a468                sp_01_s_Char
+                0x08033668                bs_23_f_Char
+                0x08024a68                sp_61_r_Char
+                0x0801f268                sp_26_r_Char
+                0x0804c708                tr_12_f_Char
+                0x08056888                ko_16_r_Palette
+                0x0805f2e8                sp_special_ef_02_s_Char
+                0x08061ae8                special_flash_01_Character
+                0x08054f08                ko_11_f_Palette
+                0x08054dc8                ko_02_r_Palette
+                0x08033a68                bs_25_f_Char
+                0x08027468                mg_23_f_Char
+                0x0801b068                sp_11_s_Char
+                0x080179d8                game_over_logo_Character
+                0x0804cb08                tr_14_f_Char
+                0x0802fc68                pt_41_s_Char
+                0x0806ea28                kani_leg_l_03_Char
+                0x08051d08                go_12_f_Char
+                0x08039268                bs_42_s_Char
+                0x0803c868                pw_13_r_Char
+                0x08052b48                go_21_Char
+                0x0802e468                pt_23_r_Char
+                0x0804b108                ui_13_r_Char
+                0x08030468                pt_51_f_Char
+                0x0802c268                pt_14_f_Char
+                0x0802f068                pt_33_s_Char
+                0x080456a8                rf_33_Char
+                0x08019188                knight_01_Palette
+                0x0802a268                mg_45_f_Char
+                0x080497e8                ui_01_r_Char
+                0x08057968                sa_11_f_Char
+                0x08028c68                mg_33_f_Char
+                0x08035e68                bs_29_s_Char
+                0x08025a68                mg_12_f_Char
+                0x08065628                splash_ef_03_Char
+                0x0803ba68                pw_14_f_Char
+                0x0804ab08                ui_15_f_Char
+                0x0804bf08                tr_01_r_Char
+                0x08029468                mg_31_r_Char
+                0x0804a6c8                ui_13_f_Char
+                0x08035a68                bs_28_s_Char
+                0x08055368                ko_13_f_Char
+                0x0802e868                pt_32_f_Char
+                0x08023668                sp_44_r_Char
+                0x08029868                mg_33_r_Char
+                0x08050f08                go_03_f_Char
+                0x08059268                smk_ef_01_Char
+                0x08058a08                rf_shot_02_Char
+                0x0803b468                pw_11_f_Char
+                0x08056aa8                ko_17_r_Palette
+                0x08031a68                bs_12_f_Char
+                0x08052108                go_14_f_Palette
+                0x0802ac68                mg_62_f_Char
+                0x08047768                pz_03_f_Char
+                0x080587e8                go_shot_02_Char
+                0x08049188                ui_01_f_Char
+                0x08059ae8                mg_shot_02_Char
+                0x08021668                sp_35_r_Char
+                0x0803c068                pw_13_s_Char
+                0x08023e68                sp_61_f_Char
+                0x0801cc68                sp_26_f_Char
+                0x08055e08                ko_11_r_Char
+                0x08024c68                sp_62_r_Char
+                0x0801f668                sp_27_r_Char
+                0x0806c228                kani_arm_r_02_Char
+                0x08058368                sa_13_r_Char
+                0x08054b68                ko_01_f_Char
+                0x0803bc68                pw_11_s_Char
+                0x0805a5e8                mg_skill_ef_02_Char
+                0x08053348                do_01_r_Char
+                0x08020068                sp_34_f_Char
+                0x08035668                bs_26_s_Char
+                0x08031068                pt_90_f_Char
+                0x0801b268                sp_12_s_Char
+                0x0804d108                tr_11_r_Char
+                0x08027a68                mg_22_s_Char
+                0x08040268                pw_33_r_Char
+                0x0804a288                ui_11_f_Char
+                0x0805bde8                mg_special_ef_05_Char
+                0x080499e8                ui_02_r_Palette
+                0x0804e508                kn_01_f_Char
+                0x0801a268                sp_01_f_Char
+                0x08054d48                ko_01_r_Char
+                0x08024468                sp_61_s_Char
+                0x0801de68                sp_26_s_Char
+                0x0801fe68                sp_33_f_Char
+                0x08063e28                special_flash_05_Character
+                0x080190e8                ply_pw_Palette
+                0x08052728                go_13_r_Char
+                0x08045ca8                rf_36_Char
+                0x08037e68                bs_31_s_Char
+                0x08041e68                pw_61_r_Char
+                0x0801c668                sp_23_f_Char
+                0x0804c508                tr_11_f_Char
+                0x08056cc8                ko_21_Palette
+                0x08049c08                ui_03_r_Palette
+                0x08043468                nu_02_r_Char
+                0x08048568                pz_12_f_Char
+                0x08038668                bs_32_r_Char
+                0x08031668                bs_01_r_Char
+                0x0806ba28                kani_arm_r_01_Char
+                0x08053148                do_03_f_Char
+                0x0802b668                pt_01_f_Char
+                0x0801ca68                sp_25_f_Char
+                0x0803a068                bs_51_r_Char
+                0x08032e68                bs_14_r_Char
+                0x08046b68                us_03_r_Char
+                0x0801e668                sp_21_r_Char
+                0x08057b68                sa_12_f_Char
+                0x0805dae8                sp_special_ef_02_f_Char
+                0x08064c28                fire_02_Char
+                0x08037068                bs_27_r_Char
+                0x08029c68                mg_42_f_Char
+                0x08040468                pw_41_f_Char
+                0x08050b08                go_01_f_Char
+                0x0804cd08                tr_15_f_Char
+                0x080636b8                special_flash_04_Character
+                0x08055de8                ko_11_r_Palette
+                0x0802c668                pt_12_s_Char
+                0x0800e398                bg_woods_main_01_Character
+                0x08054148                do_11_r_Char
+                0x0805cce8                pw_special_ef_03_Char
+                0x08021e68                sp_44_f_Char
+                0x080622a8                special_flash_01_Map
+                0x08029a68                mg_41_f_Char
+                0x0803f468                pw_32_f_Char
+                0x08040c68                pw_41_r_Char
+                0x0804b708                ui_21_Char
+                0x08030068                pt_41_r_Char
+                0x08043668                nu_11_f_Char
+                0x08038e68                bs_43_f_Char
+                0x0801da68                sp_24_s_Char
+                0x08020868                sp_33_s_Char
+                0x0804a8c8                ui_14_f_Palette
+                0x08053d48                do_13_f_Char
+                0x0804c308                tr_03_r_Char
+                0x08032468                bs_13_s_Char
+                0x08039668                bs_41_r_Char
+                0x08039868                bs_42_r_Char
+                0x0803f668                pw_33_f_Char
+                0x0803f068                pw_24_r_Char
+                0x08019168                emy_go_Palette
+                0x0803e668                pw_21_r_Char
+                0x080557a8                ko_15_f_Char
+                0x0803d268                pw_23_f_Char
+                0x08063978                special_flash_04_Map
+                0x08060ae8                sp_special_ef_02_r_Char
+                0x0806d228                kani_body_Char
+                0x0801d868                sp_23_s_Char
+                0x0804ad08                ui_11_r_Char
+                0x0804a4a8                ui_12_f_Char
+                0x08030268                pt_42_r_Char
+                0x08056668                ko_15_r_Palette
+                0x08050508                kn_15_r_Char
+                0x08040e68                pw_42_r_Char
+                0x08037c68                bs_33_f_Char
+                0x08027c68                mg_23_s_Char
+                0x08059468                smk_ef_02_Char
+                0x08071e28                coin_small_01_Palette
+                0x0802fa68                pt_42_f_Char
+                0x08020468                sp_31_s_Char
+                0x08049a08                ui_02_r_Char
+                0x08027068                mg_21_f_Char
+                0x08046d68                us_11_f_Char
+                0x08042a68                sl_04_f_Char
+                0x08057768                sa_03_r_Char
+                0x08044468                rf_03_f_Char
+                0x08050d08                go_02_f_Char
+                0x08049168                ui_01_f_Palette
+                0x080497c8                ui_01_r_Palette
+                0x08054b48                ko_01_f_Palette
+                0x08056008                ko_12_r_Palette
+                0x08047568                pz_02_f_Char
+                0x0804e108                ke_02_f_Char
+                0x0803d668                pw_24_f_Char
+                0x08070a28                kani_leg_r_03_Char
+                0x08026468                mg_13_s_Char
+                0x0803be68                pw_12_s_Char
+                0x08057168                sa_03_f_Char
+                0x0803ce68                pw_22_f_Char
+                0x08062758                special_flash_02_Character
+                0x08033868                bs_24_f_Char
+                0x08047b68                pz_01_r_Char
+                0x08031868                bs_11_f_Char
+                0x080495c8                ui_03_f_Char
+                0x08032068                bs_11_s_Char
+                0x0805a1e8                mg_shot_14_Char
+                0x08041868                pw_62_f_Char
+                0x0803aa68                bs_65_f_Char
+                0x0803b068                pw_01_s_Char
+                0x080612e8                sp_special_ef_03_r_Char
+                0x08041268                pw_51_s_Char
+                0x08056d68                sa_01_f_Char
+                0x08054be8                ko_02_f_Palette
+                0x0804e308                ke_03_f_Char
+                0x08041c68                pw_62_s_Char
+                0x08019228                start_logo_Palette
+                0x08046708                us_01_r_Palette
+                0x08050308                kn_14_r_Char
+                0x08023c68                sp_51_r_Char
+                0x0801be68                sp_14_r_Char
+                0x0804e908                kn_03_f_Char
+                0x08021a68                sp_42_f_Char
+                0x08071e48                coin_small_01_Char
+                0x08028268                mg_22_r_Char
+                0x0801c268                sp_22_f_Char
+                0x0802cc68                pt_11_r_Char
+                0x08059a68                mg_shot_01_Char
+                0x08058a28                rf_shot_03_Char
+                0x08039c68                bs_51_f_Char
+                0x08031e68                bs_14_f_Char
+                0x0802d468                pt_21_f_Char
+                0x08057f68                sa_11_r_Char
+                0x08054e88                ko_03_r_Char
+                0x0803c268                pw_14_s_Char
+                0x08047d68                pz_02_r_Char
+                0x0802dc68                pt_22_s_Char
+                0x08039068                bs_41_s_Char
+                0x08053748                do_03_r_Char
+                0x0803b868                pw_13_f_Char
+                0x08052948                go_14_r_Char
+                0x08025c68                mg_13_f_Char
+                0x0802d868                pt_23_f_Char
+                0x08051508                go_02_r_Char
+                0x08046b48                us_03_r_Palette
+                0x0805c8e8                pw_special_ef_02_Char
+                0x0802f668                pt_33_r_Char
+                0x080179b8                game_over_logo_Palette
+                0x0800aa78                bg_woods_Character
+                0x08051b08                go_11_f_Char
+                0x08037868                bs_31_f_Char
+                0x08022268                sp_42_s_Char
+                0x0804ef08                kn_03_r_Char
+                0x08022e68                sp_42_r_Char
+                0x0802f268                pt_31_r_Char
+                0x08067228                knight_10_Char
+                0x08025468                mg_01_s_Char
+                0x08056688                ko_15_r_Char
+                0x08024868                sp_63_s_Char
+                0x0801e468                sp_28_s_Char
+                0x08033268                bs_22_f_Char
+                0x08044868                rf_02_r_Char
+                0x08064e28                fire_03_Char
+                0x0804ed08                kn_02_r_Char
+                0x08022c68                sp_41_r_Char
+                0x08071228                kani_leg_r_04_Char
+                0x08072008                coin_small_04_Palette
+                0x0802aa68                mg_61_f_Char
+                0x08046728                us_01_r_Char
+                0x08039468                bs_43_s_Char
+                0x08052128                go_14_f_Char
+                0x0805d2e8                sp_special_ef_01_f_Char
+                0x08043c68                nu_12_r_Char
+                0x0803f868                pw_31_s_Char
+                0x0804d908                tr_15_r_Char
+                0x080190c8                ply_bs_Palette
+                0x08048f68                pz_21_Char
+                0x08043068                nu_02_f_Char
+                0x0802b268                mg_65_f_Char
+                0x08055348                ko_13_f_Palette
+                0x0803b668                pw_12_f_Char
+                0x08056ce8                ko_21_Char
+                0x0804bb08                tr_02_f_Char
+                0x08054948                do_21_Char
+                0x08053f48                do_14_f_Char
+                0x08040868                pw_41_s_Char
+                0x0804f708                kn_14_f_Char
+                0x08023868                sp_51_f_Char
+                0x0801ae68                sp_14_f_Char
+                0x08022068                sp_41_s_Char
+                0x08042c68                sl_21_Char
+                0x08055568                ko_14_f_Palette
+                0x080458a8                rf_34_Char
+                0x08043a68                nu_11_r_Char
+                0x0804fd08                kn_11_r_Char
+                0x0801b868                sp_11_r_Char
+                0x0805b068                mg_special_ef_02_Char
+                0x0805a7e8                mg_skill_ef_03_Char
+                0x08043268                nu_01_r_Char
+                0x08021268                sp_33_r_Char
+                0x08027668                mg_24_f_Char
+                0x08033068                bs_21_f_Char
+                0x08056028                ko_12_r_Char
+                0x080464e8                us_03_f_Palette
+                0x0801d468                sp_22_s_Char
+                0x0804ff08                kn_12_r_Char
+                0x0801ba68                sp_12_r_Char
+                0x0800f9b8                bg_woods_main_01_Map
+                0x08062fe8                special_flash_03_Character
+                0x08044c88                rf_11_Char
+                0x08072028                coin_small_04_Char
+                0x08025668                mg_01_r_Char
+                0x0805e2e8                sp_special_ef_03_f_Char
+                0x0802ce68                pt_12_r_Char
+                0x08049e48                ui_04_f_Char
+                0x08018bf8                game_over_logo_Map
+                0x08026e68                mg_14_r_Char
+                0x08039a68                bs_43_r_Char
+                0x080495a8                ui_03_f_Palette
+                0x0802f868                pt_41_f_Char
+                0x0802e068                pt_21_r_Char
+                0x08052d48                do_01_f_Char
+                0x0806f228                kani_leg_l_04_Char
+                0x08058768                go_shot_01_Char
+                0x08048768                pz_13_f_Char
+                0x080191e8                eft_mg_Palette
+                0x08056f68                sa_02_f_Char
+                0x08036868                bs_24_r_Char
+                0x08042468                sl_01_f_Char
+                0x08059de8                mg_shot_12_Char
+                0x08040068                pw_32_r_Char
+                0x0801ee68                sp_24_r_Char
+                0x080602e8                sp_special_ef_01_r_Char
+                0x0801fc68                sp_32_f_Char
+                0x08044e88                rf_12_Palette
+                0x0803c668                pw_12_r_Char
+                0x0802ec68                pt_31_s_Char
+                0x0801c068                sp_21_f_Char
+                0x08047968                pz_04_f_Char
+                0x0802b468                mg_90_f_Char
+                0x0802a668                mg_51_s_Char
+                0x0803ac68                bs_90_f_Char
+                0x080559a8                ko_16_f_Palette
+                0x08055148                ko_12_f_Char
+                0x08028e68                mg_31_s_Char
+                0x0802a868                mg_51_r_Char
+                0x08038868                bs_33_r_Char
+                0x08026268                mg_12_s_Char
+                0x08046948                us_02_r_Char
+                0x0805a9e8                mg_skill_ef_04_Char
+                0x08043868                nu_12_f_Char
+                0x0805c268                mg_special_ef_06_Char
+                0x08066a28                knight_03_Char
+                0x08052528                go_12_r_Char
+                0x0801b468                sp_13_s_Char
+                0x08058868                go_shot_11_Char
+                0x08059668                smk_ef_03_Char
+                0x08054348                do_12_r_Char
+                0x08049c28                ui_03_r_Char
+                0x08028068                mg_21_r_Char
+                0x08047368                pz_01_f_Char
+                0x08024668                sp_62_s_Char
+                0x0801e268                sp_27_s_Char
+                0x08063208                special_flash_03_Map
+                0x08054c08                ko_02_f_Char
+                0x0802da68                pt_21_s_Char
+                0x08042e68                nu_01_f_Char
+                0x08045aa8                rf_35_Char
+                0x08057368                sa_01_r_Char
+                0x0804d708                tr_14_r_Char
+                0x08042668                sl_02_f_Char
+                0x08029068                mg_32_s_Char
+                0x08062b38                special_flash_02_Map
+                0x080191a8                kani_arm_l_01_Palette
+                0x08027e68                mg_24_s_Char
+                0x08065228                splash_ef_01_Char
+                0x0802e668                pt_31_f_Char
+                0x08054ca8                ko_03_f_Char
+                0x08030868                pt_51_r_Char
+                0x0802d268                pt_14_r_Char
+                0x08022a68                sp_44_s_Char
+                0x08019128                emy_pz_Palette
+                0x0800e378                bg_woods_main_01_Palette
+                0x08046508                us_03_f_Char
+                0x080460c8                us_01_f_Char
+                0x08042268                pw_90_f_Char
+                0x080460a8                us_01_f_Palette
+                0x08071f68                coin_small_03_Palette
+                0x080559c8                ko_16_f_Char
+                0x0803f268                pw_31_f_Char
+                0x08051708                go_03_r_Char
+                0x08042868                sl_03_f_Char
+                0x0804f108                kn_11_f_Char
+                0x0801a868                sp_11_f_Char
+                0x0805b4e8                mg_special_ef_03_Char
+                0x0802ba68                pt_01_r_Char
+                0x08048d68                pz_13_r_Char
+                0x0804eb08                kn_01_r_Char
+                0x0801a668                sp_01_r_Char
+                0x08055788                ko_15_f_Palette
+                0x0800aa58                bg_woods_Palette
+                0x08064458                special_flash_06_Character
+                0x08048168                pz_04_r_Char
+                0x08050108                kn_13_r_Char
+                0x0801bc68                sp_13_r_Char
+                0x0805b968                mg_special_ef_04_Char
+                0x0804a048                ui_04_r_Palette
+                0x08038268                bs_33_s_Char
+                0x08056248                ko_13_r_Char
+                0x0804d308                tr_12_r_Char
+                0x08032a68                bs_12_r_Char
+                0x0802c068                pt_13_f_Char
+ .rodata        0x080720a8     0x8050 src/TableData.o
+                0x080720a8                c_DivRoot2
+                0x080720f8                bg_woods_Wall
+                0x080760f8                bg_dungeon_Wall
+ .rodata        0x0807a0f8     0x2a54 src/AnimeData.o
+                0x0807c570                MG_SPECIAL_EF
+                0x0807a278                SP_ATK2_S
+                0x0807b868                ENEMY_US_F
+                0x0807c708                E_BAR_PROTO
+                0x0807abc0                PT_JUMP_S
+                0x0807c4f8                MG_SHOT_B
+                0x0807a890                MG_JUMP_R
+                0x0807ab3c                PT_ATK_R
+                0x0807adc4                BS_WALK_S
+                0x0807aecc                BS_ATK_S
+                0x0807a7ac                MG_ATK_R
+                0x0807b538                PW_SPECIAL_S
+                0x0807c690                FIRE
+                0x0807b0e8                BS_SKILL_F
+                0x0807a56c                SP_DAM_F
+                0x0807c87c                KNIGHT_STAND
+                0x0807c360                ENEMY_SA_ATK_R
+                0x0807b760                ENEMY_RF_R
+                0x0807bda8                ENEMY_KE_F
+                0x0807b634                ENEMY_SL_DAM
+                0x0807b5e0                ENEMY_SL_F
+                0x0807aefc                BS_ATK2_S
+                0x0807b334                PW_ATK_S
+                0x0807ae6c                BS_ATK2_F
+                0x0807a3d4                SP_JUMP_R
+                0x0807b2bc                PW_WALK_R
+                0x0807c6cc                SPLASH_EF
+                0x0807a158                SP_WALK_S
+                0x0807bf10                ENEMY_GO_F
+                0x0807ac68                PT_SKILL_F
+                0x0807afbc                BS_ATK3_R
+                0x0807a1d0                SP_ATK_F
+                0x0807a644                SP_DEATH_F
+                0x0807a20c                SP_ATK2_F
+                0x0807b5b0                PW_DAM_R
+                0x0807a23c                SP_ATK_S
+                0x0807b238                PW_STAND_R
+                0x0807a380                SP_JUMP_S
+                0x0807b694                ENEMY_NU_ATK_F
+                0x0807b1c0                BS_SPECIAL_F
+                0x0807b3ac                PW_JUMP_F
+                0x0807ad7c                BS_STAND_R
+                0x0807aa10                PT_STAND_S
+                0x0807c660                SP_SPECIAL_EF_R
+                0x0807ad64                BS_STAND_F
+                0x0807be50                ENEMY_KN_ATK_F
+                0x0807c84c                SELECT_POWER
+                0x0807a5e4                SP_SPECIAL_S
+                0x0807ca84                ENEMY_STATUS
+                0x0807acd4                PT_DAM_F
+                0x0807c324                ENEMY_SA_ATK_F
+                0x0807ad04                PT_DAM_R
+                0x0807af2c                BS_ATK3_S
+                0x0807c9b4                KANI_LEG_R
+                0x0807b244                PW_WALK_F
+                0x0807bad8                ENEMY_PZ_DAM
+                0x0807c81c                SELECT_MAGIC
+                0x0807b190                BS_DAM_S
+                0x0807b988                ENEMY_PZ_F
+                0x0807aaa0                PT_WALK_R
+                0x0807bd90                ENEMY_TR_DAM
+                0x0807a8e4                MG_SKILL_F
+                0x0807c4c8                MG_SHOT_S
+                0x0807ab6c                PT_JUMP_F
+                0x0807a83c                MG_JUMP_S
+                0x0807c954                KANI_ARM_R
+                0x0807bf88                ENEMY_GO_ATK_F
+                0x0807c39c                ENEMY_SA_DAM
+                0x0807a584                SP_DAM_S
+                0x0807b040                BS_JUMP_S
+                0x0807c3b4                ENEMY_GO_SHOT_S
+                0x0807bb2c                ENEMY_UI_R
+                0x0807b454                PW_JUMP_R
+                0x0807ca5c                ATTACK
+                0x0807aa04                PT_STAND_F
+                0x0807b64c                ENEMY_NU_F
+                0x0807b118                BS_SKILL_S
+                0x0807a734                MG_ATK_F
+                0x0807a194                SP_WALK_R
+                0x0807a59c                SP_DAM_R
+                0x0807c2e8                ENEMY_SA_R
+                0x0807c7b0                MG_SPECIAL_EF_R
+                0x0807a500                SP_SKILL_R
+                0x0807c9e4                PLAYER_STATUS
+                0x0807b22c                PW_STAND_S
+                0x0807a9ec                MG_DEATH_F
+                0x0807a7e8                MG_JUMP_F
+                0x0807a6f8                MG_WALK_R
+                0x0807ac14                PT_JUMP_R
+                0x0807a770                MG_ATK_S
+                0x0807c144                ENEMY_DO_DAM
+                0x0807b6d0                ENEMY_NU_ATK_R
+                0x0807b280                PW_WALK_S
+                0x0807b370                PW_ATK_R
+                0x0807b4f0                PW_SKILL_R
+                0x0807bc28                ENEMY_UI_DAM
+                0x0807a110                SP_STAND_R
+                0x0807c600                SP_SPECIAL_EF_F
+                0x0807bf4c                ENEMY_GO_R
+                0x0807a494                SP_SKILL_S
+                0x0807b55c                PW_SPECIAL_R
+                0x0807c2ac                ENEMY_SA_F
+                0x0807a668                MG_STAND_S
+                0x0807c924                KANI_ARM_L
+                0x0807b79c                ENEMY_RF_ATK
+                0x0807b808                ENEMY_RF_APP
+                0x0807c984                KANI_LEG_L
+                0x0807a95c                MG_DAM_F
+                0x0807c198                ENEMY_KO_R
+                0x0807b724                ENEMY_RF_F
+                0x0807c534                MG_SKILL_EF
+                0x0807c234                ENEMY_KO_ATK_R
+                0x0807b670                ENEMY_NU_R
+                0x0807ad88                BS_WALK_F
+                0x0807b094                BS_JUMP_R
+                0x0807af8c                BS_ATK2_R
+                0x0807c720                COIN_ANIME
+                0x0807baf0                ENEMY_UI_F
+                0x0807aa28                PT_WALK_F
+                0x0807aadc                PT_ATK_F
+                0x0807a614                SP_SPECIAL_R
+                0x0807bbc8                ENEMY_UI_ATK_R
+                0x0807b2f8                PW_ATK_F
+                0x0807b580                PW_DAM_F
+                0x0807b9c4                ENEMY_PZ_R
+                0x0807b8b0                ENEMY_US_R
+                0x0807b598                PW_DAM_S
+                0x0807a2f0                SP_ATK2_R
+                0x0807bef8                ENEMY_KN_DAM
+                0x0807ad1c                PT_SPECIAL_F
+                0x0807c294                ENEMY_KO_DAM
+                0x0807a32c                SP_JUMP_F
+                0x0807c90c                KANI_BODY
+                0x0807c834                SELECT_PETIT
+                0x0807ab0c                PT_ATK_S
+                0x0807bdd8                ENEMY_KN_F
+                0x0807af5c                BS_ATK_R
+                0x0807bea4                ENEMY_KN_ATK_R
+                0x0807bc7c                ENEMY_TR_R
+                0x0807b1a8                BS_DAM_R
+                0x0807bb68                ENEMY_UI_ATK_F
+                0x0807b148                BS_SKILL_R
+                0x0807bd24                ENEMY_TR_ATK_R
+                0x0807c3d8                ENEMY_GO_SHOT_B
+                0x0807b7f0                ENEMY_RF_DAM
+                0x0807c450                EFFECT_DAMAGE
+                0x0807c414                ENEMY_RF_SHOT
+                0x0807c030                ENEMY_DO_F
+                0x0807c15c                ENEMY_KO_F
+                0x0807a104                SP_STAND_S
+                0x0807b208                BS_DEATH_F
+                0x0807b70c                ENEMY_NU_DAM
+                0x0807a674                MG_STAND_R
+                0x0807afec                BS_JUMP_F
+                0x0807c0f0                ENEMY_DO_ATK_R
+                0x0807a2b4                SP_ATK_R
+                0x0807c864                SELECT_SPEED
+                0x0807b8f8                ENEMY_US_ATK_F
+                0x0807ba6c                ENEMY_PZ_ATK_R
+                0x0807b970                ENEMY_US_DAM
+                0x0807bfd0                ENEMY_GO_ATK_R
+                0x0807c75c                MG_SPECIAL_EF_L
+                0x0807b4cc                PW_SKILL_S
+                0x0807b4a8                PW_SKILL_F
+                0x0807bcb8                ENEMY_TR_ATK_F
+                0x0807c48c                EFFECT_SMOKE
+                0x0807ae3c                BS_ATK_F
+                0x0807b400                PW_JUMP_S
+                0x0807c8ac                KNIGHT_ATK
+                0x0807aa64                PT_WALK_S
+                0x0807be14                ENEMY_KN_R
+                0x0807c0a8                ENEMY_DO_ATK_F
+                0x0807acec                PT_DAM_S
+                0x0807a428                SP_SKILL_F
+                0x0807b220                PW_STAND_F
+                0x0807acb0                PT_SKILL_R
+                0x0807a680                MG_WALK_F
+                0x0807a98c                MG_DAM_R
+                0x0807bc40                ENEMY_TR_F
+                0x0807c018                ENEMY_GO_DAM
+                0x0807b178                BS_DAM_F
+                0x0807c1d4                ENEMY_KO_ATK_F
+                0x0807b934                ENEMY_US_ATK_R
+                0x0807c8f4                KNIGHT_GUARD
+                0x0807ad4c                PT_DEATH_F
+                0x0807a5b4                SP_SPECIAL_F
+                0x0807a0f8                SP_STAND_F
+                0x0807c5c4                PW_SPECIAL_EF
+                0x0807ad70                BS_STAND_S
+                0x0807ae00                BS_WALK_R
+                0x0807b5c8                PW_DEATH_F
+                0x0807aa1c                PT_STAND_R
+                0x0807c804                SELECT_BEAST
+                0x0807c06c                ENEMY_DO_R
+                0x0807b514                PW_SPECIAL_F
+                0x0807a65c                MG_STAND_F
+                0x0807a9a4                MG_SPECIAL_F
+                0x0807c630                SP_SPECIAL_EF_S
+                0x0807a6bc                MG_WALK_S
+                0x0807ac8c                PT_SKILL_S
+                0x0807a974                MG_DAM_S
+                0x0807a11c                SP_WALK_F
+                0x0807ae9c                BS_ATK3_F
+                0x0807ba00                ENEMY_PZ_ATK_F
+ .rodata        0x0807cb4c       0xa4 src/String.o
+                0x0807cb4c                c_FontOffset
+ .rodata        0x0807cbf0      0x280 src/Sin_tbl.o
+                0x0807cbf0                c_SinTbl
+ .rodata        0x0807ce70       0x60 src/Battle.o
+ .rodata        0x0807ced0       0x10 src/MultiSio.o
+ .rodata        0x0807cee0    0x11fe0 src/Title.o
+                0x0808a9c0                title_main_bg_03_Palette
+                0x0808e6c0                title_main_bg_03_Map
+                0x0808a1c0                title_main_bg_02_Map
+                0x08086480                title_main_bg_02_Palette
+                0x0807f5a0                title_16_bg_Character
+                0x08085c80                title_main_bg_01_Map
+                0x080821c0                title_main_bg_01_Character
+                0x08081fc0                title_main_bg_01_Palette
+                0x080817c0                title_16_bg_Map
+                0x0807ed80                title_cloud_Map
+                0x0807f580                title_16_bg_Palette
+                0x0807cee0                title_cloud_Palette
+                0x08086680                title_main_bg_02_Character
+                0x0808abc0                title_main_bg_03_Character
+                0x0807cf00                title_cloud_Character
+ .rodata        0x0808eec0     0xb6a0 src/Briefing.o
+                0x0809a360                player4_logo_Char
+                0x0809a120                player3_logo_Palette
+                0x08091a20                winner_frame_Character
+                0x080994e0                select_power_Char
+                0x08094720                ruins_icon_Palette
+                0x08098ca0                select_beast_Palette
+                0x08093f20                woods_icon_Map
+                0x08091200                stage_select_frame_Map
+                0x08092e40                woods_icon_Character
+                0x08092620                winner_frame_Map
+                0x08097c80                select_magic_Char
+                0x08098cc0                select_beast_Char
+                0x0808eee0                char_select_frame_Character
+                0x08094740                ruins_icon_Character
+                0x08095d80                snow_icon_Character
+                0x0809a140                player3_logo_Char
+                0x08099ce0                player1_logo_Palette
+                0x08090500                stage_select_frame_Character
+                0x08091a00                winner_frame_Palette
+                0x08095d60                snow_icon_Palette
+                0x08099f00                player2_logo_Palette
+                0x08097440                select_speed_Palette
+                0x080994c0                select_power_Palette
+                0x080904e0                stage_select_frame_Palette
+                0x08098480                select_petit_Palette
+                0x0808eec0                char_select_frame_Palette
+                0x08092e20                woods_icon_Palette
+                0x0809a340                player4_logo_Palette
+                0x080984a0                select_petit_Char
+                0x08097460                select_speed_Char
+                0x08099d00                player1_logo_Char
+                0x08099f20                player2_logo_Char
+                0x08097c60                select_magic_Palette
+                0x08096c40                snow_icon_Map
+                0x08095560                ruins_icon_Map
+                0x0808fce0                char_select_frame_Map
+ *(.rodata.*)
+ *(.gnu.linkonce.r*)
+
+.rodata1
+ *(.rodata1)
+                0x0809a660                .=(ALIGN(0x100)+(.&0xff))
+
+.data           0x0809a660     0x1038
+ *(.data)
+ .data          0x0809a660     0x1000 src/GameData.o
+                0x0809a660                bg_woods_data
+ .data          0x0809b660       0x38 src/AnimeData.o
+                0x0809b678                SPECIAL_FLASH_MAP
+                0x0809b660                SPECIAL_FLASH_CHARACTER
+                0x0809b690                WALL_MAP
+ *(.data.*)
+ *(.gnu.linkonce.d*)
+
+.data1
+ *(.data1)
+
+.ctors
+ EXCLUDE_FILE ( *crtend.o )*(.ctors)
+ *(SORT(.ctors.*))
+ *crtend(.ctors)
+
+.dtors
+ EXCLUDE_FILE ( *crtend.o )*(.dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+
+.got
+ *(.got.plt)
+ *(.got)
+
+.dynamic
+ *(.dynamic)
+
+.sdata
+ *(.sdata)
+ *(.sdata.*)
+                0x0809b698                _edata=.
+                0x0809b698                PROVIDE (edata, .)
+                0x0809b698                __bss_start=.
+                0x0809b698                __bss_start__=.
+
+.sbss
+ *(.sbss)
+ *(.scommon)
+
+.bss            0x03000000     0x18c0
+ *(.dynbss)
+ *(.bss)
+ *(.bss.*)
+ *(COMMON)
+ COMMON         0x03000000     0x14fc src/Main.o
+                                  0x0 (size before relaxing)
+                0x03000000                Hoffset
+                0x03000004                MapNo
+                0x03000010                Coin
+                0x03000040                EnemyEffect
+                0x03000070                EnemyMagic
+                0x030000a0                EnemyNowstatus
+                0x030000f0                IntrTableBuf
+                0x03000130                PlayerNowstatus
+                0x03000190                Voffset
+                0x030001a0                PlayerEffect
+                0x030001d0                select
+                0x030001d4                SioFlagsBak
+                0x030001d8                GameTimer
+                0x030001dc                StringNo
+                0x030001e0                PlayerMagic
+                0x030001ec                Trg
+                0x030001f0                EnemyNo
+                0x030001f8                SioKey
+                0x03000200                RecvBuf
+                0x03000260                SioFlags
+                0x03000268                SioTrg
+                0x03000270                SioStartFlag
+                0x03000278                SioOldKey
+                0x03000280                PlayerNo
+                0x03000284                SpBgCnt
+                0x03000288                OldKey
+                0x03000290                ObjBuf
+                0x03000e90                PlayerDamEffect
+                0x03000ec0                IntrMainBuf
+                0x03000fc0                SendBuf
+                0x03000fe0                KeyBuf
+                0x030010e0                EnemyCnt
+                0x030010e4                GameStatus
+                0x030010e8                Clear
+                0x030010f0                OamBuf
+                0x030014f0                NowAnime2
+                0x030014f4                Key
+                0x030014f8                NowAnime
+ COMMON         0x030014fc        0x8 src/Enemy.o
+                                  0x0 (size before relaxing)
+                0x030014fc                enemymg_offset_y
+                0x03001500                enemymg_offset_x
+ COMMON         0x03001504        0x8 src/Skill.o
+                                  0x0 (size before relaxing)
+                0x03001504                work_h
+                0x03001508                work_v
+ COMMON         0x0300150c        0x8 src/Special.o
+                                  0x0 (size before relaxing)
+                0x0300150c                Skill_local_y
+                0x03001510                Skill_local_x
+ *fill*         0x03001514        0xc
+ COMMON         0x03001520      0x3a0 src/MultiSio.o
+                                  0x0 (size before relaxing)
+                0x03001520                IntrFuncBuf
+                0x03001660                Ms
+                0x03001880                RecvFuncBuf
+                0x030018c0                .=ALIGN(0x4)
+                0x030018c0                .=ALIGN(0x4)
+                0x030018c0                _end=.
+                0x030018c0                _bss_end__=.
+                0x030018c0                __bss_end__=.
+                0x030018c0                PROVIDE (end, .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x260
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 src/Main.o
+ .debug_aranges
+                0x00000020       0x20 src/hard_init.o
+ .debug_aranges
+                0x00000040       0x20 src/Map.o
+ .debug_aranges
+                0x00000060       0x20 src/Action.o
+ .debug_aranges
+                0x00000080       0x20 src/String.o
+ .debug_aranges
+                0x000000a0       0x20 src/Sprite.o
+ .debug_aranges
+                0x000000c0       0x20 src/Hero.o
+ .debug_aranges
+                0x000000e0       0x20 src/Battle.o
+ .debug_aranges
+                0x00000100       0x20 src/Magic.o
+ .debug_aranges
+                0x00000120       0x20 src/Enemy.o
+ .debug_aranges
+                0x00000140       0x20 src/Skill.o
+ .debug_aranges
+                0x00000160       0x20 src/Special.o
+ .debug_aranges
+                0x00000180       0x20 src/Input.o
+ .debug_aranges
+                0x000001a0       0x20 src/MultiSio.o
+ .debug_aranges
+                0x000001c0       0x20 src/Title.o
+ .debug_aranges
+                0x000001e0       0x20 src/Move.o
+ .debug_aranges
+                0x00000200       0x20 src/Briefing.o
+ .debug_aranges
+                0x00000220       0x20 C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memcpy.o)
+ .debug_aranges
+                0x00000240       0x20 C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memset.o)
+
+.debug_pubnames
+                0x00000000     0x64e8
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x225 src/Main.o
+ .debug_pubnames
+                0x00000225       0x96 src/hard_init.o
+ .debug_pubnames
+                0x000002bb     0x2e04 src/GameData.o
+ .debug_pubnames
+                0x000030bf      0x22f src/TableData.o
+ .debug_pubnames
+                0x000032ee      0x217 src/Map.o
+ .debug_pubnames
+                0x00003505      0xe80 src/AnimeData.o
+ .debug_pubnames
+                0x00004385      0x205 src/Action.o
+ .debug_pubnames
+                0x0000458a      0x26e src/String.o
+ .debug_pubnames
+                0x000047f8      0x217 src/Sprite.o
+ .debug_pubnames
+                0x00004a0f       0x1f src/Sin_tbl.o
+ .debug_pubnames
+                0x00004a2e      0x203 src/Hero.o
+ .debug_pubnames
+                0x00004c31      0x205 src/Battle.o
+ .debug_pubnames
+                0x00004e36      0x204 src/Magic.o
+ .debug_pubnames
+                0x0000503a      0x243 src/Enemy.o
+ .debug_pubnames
+                0x0000527d      0x21a src/Skill.o
+ .debug_pubnames
+                0x00005497      0x240 src/Special.o
+ .debug_pubnames
+                0x000056d7      0x209 src/Input.o
+ .debug_pubnames
+                0x000058e0      0x2b4 src/MultiSio.o
+ .debug_pubnames
+                0x00005b94      0x1a7 src/Title.o
+ .debug_pubnames
+                0x00005d3b      0x203 src/Move.o
+ .debug_pubnames
+                0x00005f3e      0x570 src/Briefing.o
+ .debug_pubnames
+                0x000064ae       0x1d C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memcpy.o)
+ .debug_pubnames
+                0x000064cb       0x1d C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memset.o)
+
+.debug_info     0x00000000    0x5a920
+ *(.debug_info)
+ .debug_info    0x00000000     0x3c6a src/Main.o
+ .debug_info    0x00003c6a     0x2f02 src/hard_init.o
+ .debug_info    0x00006b6c     0x76f3 src/GameData.o
+ .debug_info    0x0000e25f     0x3bd1 src/TableData.o
+ .debug_info    0x00011e30     0x3de2 src/Map.o
+ .debug_info    0x00015c12     0xb9b3 src/AnimeData.o
+ .debug_info    0x000215c5     0x3cf0 src/Action.o
+ .debug_info    0x000252b5     0x3eff src/String.o
+ .debug_info    0x000291b4     0x3c95 src/Sprite.o
+ .debug_info    0x0002ce49     0x2d0f src/Sin_tbl.o
+ .debug_info    0x0002fb58     0x44e6 src/Hero.o
+ .debug_info    0x0003403e     0x3ce8 src/Battle.o
+ .debug_info    0x00037d26     0x3bf5 src/Magic.o
+ .debug_info    0x0003b91b     0x4308 src/Enemy.o
+ .debug_info    0x0003fc23     0x3d4c src/Skill.o
+ .debug_info    0x0004396f     0x3eb1 src/Special.o
+ .debug_info    0x00047820     0x3b77 src/Input.o
+ .debug_info    0x0004b397     0x3f1b src/MultiSio.o
+ .debug_info    0x0004f2b2     0x2ff1 src/Title.o
+ .debug_info    0x000522a3     0x402e src/Move.o
+ .debug_info    0x000562d1     0x41f7 src/Briefing.o
+ .debug_info    0x0005a4c8      0x24b C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memcpy.o)
+ .debug_info    0x0005a713      0x20d C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memset.o)
+
+.debug_abbrev   0x00000000     0x1da8
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x15b src/Main.o
+ .debug_abbrev  0x0000015b      0x13b src/hard_init.o
+ .debug_abbrev  0x00000296      0x12d src/GameData.o
+ .debug_abbrev  0x000003c3      0x117 src/TableData.o
+ .debug_abbrev  0x000004da      0x177 src/Map.o
+ .debug_abbrev  0x00000651      0x14a src/AnimeData.o
+ .debug_abbrev  0x0000079b      0x15f src/Action.o
+ .debug_abbrev  0x000008fa      0x1ba src/String.o
+ .debug_abbrev  0x00000ab4      0x176 src/Sprite.o
+ .debug_abbrev  0x00000c2a       0xfa src/Sin_tbl.o
+ .debug_abbrev  0x00000d24      0x165 src/Hero.o
+ .debug_abbrev  0x00000e89      0x17d src/Battle.o
+ .debug_abbrev  0x00001006      0x154 src/Magic.o
+ .debug_abbrev  0x0000115a      0x17a src/Enemy.o
+ .debug_abbrev  0x000012d4      0x154 src/Skill.o
+ .debug_abbrev  0x00001428      0x168 src/Special.o
+ .debug_abbrev  0x00001590      0x132 src/Input.o
+ .debug_abbrev  0x000016c2      0x1ec src/MultiSio.o
+ .debug_abbrev  0x000018ae      0x137 src/Title.o
+ .debug_abbrev  0x000019e5      0x154 src/Move.o
+ .debug_abbrev  0x00001b39      0x165 src/Briefing.o
+ .debug_abbrev  0x00001c9e       0x8b C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memcpy.o)
+ .debug_abbrev  0x00001d29       0x7f C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memset.o)
+
+.debug_line     0x00000000     0x5b34
+ *(.debug_line)
+ .debug_line    0x00000000      0x159 src/Main.o
+ .debug_line    0x00000159      0x1c9 src/hard_init.o
+ .debug_line    0x00000322      0x298 src/Map.o
+ .debug_line    0x000005ba      0x223 src/Action.o
+ .debug_line    0x000007dd      0x3f7 src/String.o
+ .debug_line    0x00000bd4      0x31d src/Sprite.o
+ .debug_line    0x00000ef1     0x10d1 src/Hero.o
+ .debug_line    0x00001fc2      0x3eb src/Battle.o
+ .debug_line    0x000023ad      0x232 src/Magic.o
+ .debug_line    0x000025df     0x10ba src/Enemy.o
+ .debug_line    0x00003699      0x3f2 src/Skill.o
+ .debug_line    0x00003a8b      0x464 src/Special.o
+ .debug_line    0x00003eef      0x102 src/Input.o
+ .debug_line    0x00003ff1      0x4d7 src/MultiSio.o
+ .debug_line    0x000044c8      0x260 src/Title.o
+ .debug_line    0x00004728      0xba9 src/Move.o
+ .debug_line    0x000052d1      0x471 src/Briefing.o
+ .debug_line    0x00005742      0x1e5 C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memcpy.o)
+ .debug_line    0x00005927      0x20d C:\PROGRA~1\Cygnus\thumbelf-000512\H-i686-cygwin32\bin/../lib/gcc-lib/thumb-elf/2.9-arm-000512/../../../../thumb-elf/lib/libg.a(memset.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.stack          0x00080000        0x0
+                0x00080000                _stack=.
+ *(.stack)
+OUTPUT(Test.elf elf32-littlearm)

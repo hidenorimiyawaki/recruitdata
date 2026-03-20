@@ -1,0 +1,175 @@
+//*****************************************************************************S
+//									実験用プログラム
+//	tab		4
+//	Copyright (C)	コンピュータ総合学園 HAL　AP-12B-132 No.51 宮脇 秀則
+//*****************************************************************************E
+
+//#define		NDEBUG		// リリース時に宣言します（宣言によってプリントデバッグなどを排除します）
+
+#include	<agb.h>
+#include	"hard_init.h"
+
+//******************************* キーアサイン ********************************S
+#define		KEY_L		(0x0200)
+#define		KEY_R		(0x0100)
+#define		KEY_DOWN	(0x0080)
+#define		KEY_UP		(0x0040)
+#define		KEY_LEFT	(0x0020)
+#define		KEY_RIGHT	(0x0010)
+#define		KEY_START	(0x0008)
+#define		KEY_SELECT	(0x0004)
+#define		KEY_B		(0x0002)
+#define		KEY_A		(0x0001)
+volatile u16	nowKey, oldKey;	// キー入力（キーデータがキャッシュされないようにvolatileで宣言）
+//******************************* キーアサイン ********************************E
+
+
+//***************************** ＯＢＪキャラクタ ******************************S
+#include	".\graph\hero_stand_1.c"
+#include	".\graph\hero_stand_2.c"
+
+
+
+typedef struct _oam_type{
+	u16		attr0;
+	u16		attr1;
+	u16		attr2;
+	u16		rot_para;
+}OAM_TYPE;
+OAM_TYPE	oam_buffer[128];	// ＯＡＭ へ ＤＭＡ転送するためのバッファ
+//***************************** ＯＢＪキャラクタ ******************************E
+
+//***************************** ＯＢＪキャラクタ構造体 ******************************S
+typedef struct anime_table{
+		u16	spright_no;
+		s16	x_position_add;
+		s16	y_position_add;
+		u8	v_wait;
+		u8	status;
+}ANIME_TABLE;
+
+
+//***************************** ＯＢＪキャラクタ構造体 ******************************E
+
+
+//***************************** 宣言 ******************************S
+const ANIME_TABLE spright_anime00[]={
+		{ 0x0000, 0, 0,  8, 0x0 },
+		{ 0x0010, 0, 0,  6, 0x1 },
+		{ 0x0000, 0, 0,  8, 0x2 },
+		{ 0x0010, 0, 0,  6, 0x3 },
+		{ 0x0000, 0, 0,  16, 0x4 },
+		{ 0x0010, 0, 0,  6, 0x5 },
+		{ 0x0000, 0, 0,  4, 0x6 },
+		{ 0x0010, 0, 0,  6, 0x7 },
+		{ 0xeded, 0, 0, 0,0xed }
+};
+//***************************** 宣言 ******************************E
+
+
+u16	x_pos,y_pos;
+u16	hero_spright = 0x0000;
+const ANIME_TABLE	*p_table;
+
+	x_pos = y_pos = 50;
+	p_table = spright_anime00;
+	
+
+void	KeyManager(void);	//60分の1秒にキーを取得する関数
+int		hero_anime(ANIME_TABLE anime);	//とりあえず瞬きするプログラム
+void	animetion(void);
+
+
+//*********************************************************S
+//					メインエントリ
+//
+// 起動・初期化後、この関数よりプログラム実行が始まります
+//
+int main(void)
+{
+  int	i;
+  
+
+	ClearRamAll();	// ＲＡＭクリア（メモリへのアクセスウェイトも設定しています）
+	InitVBlank();	// Vブランク初期化
+	InitHardware();	// ＯＢＪ・ＢＧの設定などを行っています、詳しくは hard_init.c 参照
+	
+	//**************** ＯＢＪ表示のための準備 *****************S
+	for( i=0 ; i<128 ; i++ ){
+		oam_buffer[i].attr0 = 0x0200;
+		oam_buffer[i].attr1 = oam_buffer[i].attr2 = oam_buffer[i].rot_para = 0;
+	}
+
+	DmaArrayCopy( 3, hero_stand_1_Palette, OBJ_PLTT, 16 );
+	DmaArrayCopy( 3, hero_stand_1_Char, OBJ_MODE0_VRAM, 16 );
+
+	DmaArrayCopy( 3, hero_stand_2_Palette, OBJ_PLTT, 16 );
+	DmaArrayCopy( 3, hero_stand_2_Char, OBJ_MODE0_VRAM+32*16, 16 );
+	
+	
+	
+	oam_buffer[0].attr0 = OAM_SQUARE | OAM_COLOR_16 | OAM_AFFINE_NONE | OAM_MOS_OFF | y_pos;
+	oam_buffer[0].attr1 = (OAM_SIZE_32x32 >> 16) | x_pos;
+	oam_buffer[0].attr2 = hero_spright;
+
+	
+	DmaCopy(3, oam_buffer, OAM, 1024 , 32);		// ＯＡＭデータを転送します
+	//**************** ＯＢＪ表示のための準備 *****************E
+
+
+
+	
+	while(1){		// ←ゲームループ
+		
+
+		V_Wait();	// V-Blank割り込みが発生し、登録関数を処理するまで待ちます
+	}
+	return	0;		// ゲームプログラムがここに来ることはありません
+}
+//*********************************************************E
+
+
+
+//**********************************************************S
+//						キーマネージャ
+//
+// フレーム毎にこの関数を呼ぶことで、キー入力状態がセットされる
+//
+void KeyManager(void)
+{
+	oldKey = nowKey;							// 前回のキー内容の退避
+	nowKey = (*(vu16 *)REG_KEYINPUT ^ 0x03ff);	// 今回のキー内容の取得
+}
+//*********************************************************E
+
+
+//**********************************************************S
+//				アニメーションテーブル参照
+//
+//
+int hero_anime(ANIME_TABLE anime)
+{
+	if(anime->status == ed){
+		anime = spright_anime00;
+	}
+	else if(anime_
+	return 0;
+}
+
+//**********************************************************S
+//						アニメーション
+//
+//
+
+void animation(void){
+	
+	u8 anime_flg = 0;
+	
+	//anime_flg = hero_anime(*p_table);
+	
+	if(anime_flg == 1){
+		p_table++;
+	}
+	else{
+	}
+}

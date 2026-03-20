@@ -1,0 +1,101 @@
+# Microsoft Developer Studio Generated Dependency File, included by MapEditor.mak
+
+.\AttrData.cpp : \
+	".\AttrData.h"\
+	".\BmpDialog.h"\
+	".\DataDialog.h"\
+	".\MapData.h"\
+	".\MapEditor.h"\
+	".\SizeDialog.h"\
+	
+
+.\BmpDialog.cpp : \
+	".\AttrData.h"\
+	".\BmpDialog.h"\
+	".\DataDialog.h"\
+	".\MapData.h"\
+	".\MapEditor.h"\
+	".\SizeDialog.h"\
+	
+
+.\DataDialog.cpp : \
+	".\AttrData.h"\
+	".\BmpDialog.h"\
+	".\DataDialog.h"\
+	".\MapData.h"\
+	".\MapEditor.h"\
+	".\SizeDialog.h"\
+	
+
+.\MainFrm.cpp : \
+	".\AttrData.h"\
+	".\BmpDialog.h"\
+	".\DataDialog.h"\
+	".\MainFrm.h"\
+	".\MapData.h"\
+	".\MapEditor.h"\
+	".\SizeDialog.h"\
+	
+
+.\MapData.cpp : \
+	".\AttrData.h"\
+	".\BmpDialog.h"\
+	".\DataDialog.h"\
+	".\MapData.h"\
+	".\MapEditor.h"\
+	".\SizeDialog.h"\
+	
+
+.\MapEditor.cpp : \
+	".\AttrData.h"\
+	".\BmpDialog.h"\
+	".\DataDialog.h"\
+	".\MainFrm.h"\
+	".\MapData.h"\
+	".\MapEditor.h"\
+	".\MapEditorDoc.h"\
+	".\MapEditorView.h"\
+	".\SizeDialog.h"\
+	
+
+.\MapEditor.rc : \
+	".\res\MapEditor.ico"\
+	".\res\MapEditor.rc2"\
+	".\res\MapEditorDoc.ico"\
+	
+
+.\MapEditorDoc.cpp : \
+	".\AttrData.h"\
+	".\BmpDialog.h"\
+	".\DataDialog.h"\
+	".\MapData.h"\
+	".\MapEditor.h"\
+	".\MapEditorDoc.h"\
+	".\SizeDialog.h"\
+	
+
+.\MapEditorView.cpp : \
+	".\AttrData.h"\
+	".\BmpDialog.h"\
+	".\DataDialog.h"\
+	".\MapData.h"\
+	".\MapEditor.h"\
+	".\MapEditorDoc.h"\
+	".\MapEditorView.h"\
+	".\SizeDialog.h"\
+	
+
+.\SizeDialog.cpp : \
+	".\AttrData.h"\
+	".\BmpDialog.h"\
+	".\DataDialog.h"\
+	".\MapData.h"\
+	".\MapEditor.h"\
+	".\SizeDialog.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\..\dxsdk\include\basetsd.h"\
+	".\Include.h"\
+	".\StdAfx.h"\
+	

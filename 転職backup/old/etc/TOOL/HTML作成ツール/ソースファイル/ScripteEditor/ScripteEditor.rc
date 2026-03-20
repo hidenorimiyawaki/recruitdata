@@ -1,0 +1,250 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ScripteEditor.rc2""  // Microsoft Visual C++ 以外のツールで編集されたリソース\r\n"
+    "#include ""l.jpn\\afxres.rc""          // 標準のコンポーネント\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ScripteEditor.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ScripteEditorのﾊﾞｰｼﾞｮﾝ情報"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ScripteEditor Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_SCRIPTEEDITOR_DIALOG DIALOGEX 0, 0, 311, 303
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ScripteEditor"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    EDITTEXT        IDC_EDIT_BRANK,44,23,23,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SPEED,44,46,24,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_MOVE_TYPE,78,37,53,103,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_SLIDER_COLOR_R,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,39,173,86,12
+    CONTROL         "",IDC_SLIDER_COLOR_G,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,39,203,86,12
+    CONTROL         "",IDC_SLIDER_COLOR_B,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,39,234,86,12
+    CONTROL         "チェック1",IDC_CHECK_POWER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,180,38,9,9
+    CONTROL         "チェック1",IDC_CHECK_NANAME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,180,61,9,9
+    CONTROL         "チェック1",IDC_CHECK_UNDERLINE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,180,85,9,9
+    COMBOBOX        IDC_COMBO_FONT_TYPE,230,41,67,103,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUNSHOU,176,188,119,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "作成",IDOK,62,280,43,15
+    PUSHBUTTON      "終了",IDCANCEL,188,280,43,15
+    GROUPBOX        "フォントスタイル設定",IDC_STATIC,165,11,137,101
+    LTEXT           "強調",IDC_STATIC,197,38,15,11
+    LTEXT           "斜体",IDC_STATIC,197,63,15,11
+    LTEXT           "下線",IDC_STATIC,197,89,15,11
+    LTEXT           "フォントタイプ",IDC_STATIC,229,31,41,8
+    LTEXT           "フォントサイズ",IDC_STATIC,228,67,41,8
+    GROUPBOX        "入力文章",IDC_STATIC,166,122,137,101
+    GROUPBOX        "テロップ設定",IDC_STATIC,9,9,133,67
+    GROUPBOX        "フォントカラー設定",IDC_STATIC,8,89,137,176
+    LTEXT           "余白",IDC_STATIC,23,24,15,8
+    LTEXT           "速さ",IDC_STATIC,26,49,15,8
+    LTEXT           "流れる向き",IDC_STATIC,75,23,38,8
+    LTEXT           "ここに、表示したい文章を入力してください。",IDC_STATIC,
+                    174,151,126,15
+    CONTROL         "",IDC_SAMPLE_COLOR,"Static",SS_BITMAP | WS_BORDER,65,
+                    109,36,22
+    LTEXT           "サンプルカラー",IDC_STATIC,17,116,47,8
+    LTEXT           "0",IDC_STATIC,45,151,8,8
+    LTEXT           "255",IDC_STATIC,116,153,13,8
+    LTEXT           "R",IDC_STATIC,27,175,8,8
+    LTEXT           "G",IDC_STATIC,27,207,8,8
+    LTEXT           "B",IDC_STATIC,27,235,9,8
+    PUSHBUTTON      "作業ファイルを作成する",IDC_BUTTONSAVE,174,229,119,15
+    PUSHBUTTON      "作業ファイルを読み込む",IDC_BUTTONLOAD,174,250,119,15
+    COMBOBOX        IDC_COMBOFONTSIZE,230,79,29,96,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ScripteEditor MFC ｱﾌﾟﾘｹｰｼｮﾝ\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ScripteEditor\0"
+            VALUE "LegalCopyright", "Copyright (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ScripteEditor.EXE\0"
+            VALUE "ProductName", "ScripteEditor ｱﾌﾟﾘｹｰｼｮﾝ\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SCRIPTEEDITOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 296
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "ScripteEditor のﾊﾞｰｼﾞｮﾝ情報(&A)..."
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE 17, 1
+#pragma code_page(932)
+#endif //_WIN32
+#include "res\ScripteEditor.rc2"  // Microsoft Visual C++ 以外のツールで編集されたリソース
+#include "l.jpn\afxres.rc"          // 標準のコンポーネント
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
